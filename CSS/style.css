@@ -1,0 +1,1908 @@
+/* MOBILE FIRST */
+/* EN PRIMER LUGAR LO QUE ES PARA TODAS LAS PESTAÑAS */
+
+/* Margen a todo cero */
+* {
+    margin: 0;
+}
+
+/* Logo de whats app fijo */
+.fijo {
+    position: fixed;
+    right: 0.8rem;
+    bottom: 0.8rem;
+    width: 2rem;
+}
+
+/* Centrado */
+.center {
+    text-align: center;
+}
+
+/* Fondo para toda la página */
+body {
+    background-color: #ffe0ee;
+}
+
+/* HEADER */
+header {
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 0.15rem solid #f1b9f1;
+}
+
+/* Enlaces */
+a {
+    color: #aa16ab;
+    text-decoration-line: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+/* Lista del nav del header */
+header nav ul li {
+    margin: 0.6rem;
+    padding: 0rem;
+    line-height: normal;
+}
+
+/* Pseudoclase en el nav */
+header nav ul li a:hover {
+    color: #ca89ca;
+    font-size: 1.16rem;
+}
+
+/* Tamaño de la letra en la lista del nav del header */
+header nav ul li a {
+    font-size: 1.1rem;
+}
+
+/* Aplicado al div que contiene la imagen del logo */
+.logo {
+    width: 100%;
+    text-align: center;
+}
+
+/* Tamaño del logo */
+.logo-nav {
+    width: 7rem;
+    height: 7rem;
+}
+
+/* Para que me quede un poco mas cerca la lista del logo */
+.li1 {
+    margin-top: 0;
+}
+
+
+.list {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* 
+
+
+
+Espacio de separación
+
+
+
+*/
+/* MAIN */
+/* Titulos */
+.title {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #750f75de;
+    margin: 0rem 1rem 0rem 1rem;
+    text-align: center;
+}
+
+/* Subtitulos */
+.subt {
+    color: #750f75de;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* Descripciones de algunas imagenes y otros */
+.description {
+    color: #73626E;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1rem 1.5rem;
+    text-align: justify;
+}
+
+/* Flechas que me llevan de arriba hacia abajo */
+.flechas {
+    width: 7%;
+}
+
+/* 
+
+
+
+Espacio de separación
+
+
+
+*/
+/* FOOTER */
+footer {
+    color: #aa16ab;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    border-top: 0.15rem solid #f1b9f1;
+}
+
+/* Seguinos en instagram y direcciones */
+footer h3 {
+    font-weight: bold !important;
+}
+
+/* Div de h3:seguinos con el logo de Instagram */
+.seguinos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Logo Whats App - Instagram */
+.redes {
+    width: 2.5rem;
+    margin-left: 0.5rem;
+}
+
+/* Separacion de la lista de direcciones del Footer */
+body footer div ul li {
+    margin: 0.6rem;
+}
+
+/* 
+
+
+
+Espacio de separación
+
+
+
+*/
+
+/* POR PESTAÑA */
+
+/* iNICIO - PESTAÑA 1*/
+
+/* Tamaño de la imagen del equipo */
+.ocupa {
+    width: 85%;
+    margin-top: 1rem;
+    border: 0.4rem double rgb(187, 171, 171);
+}
+
+/* Grids en el main*/
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 30% 17% 53%;
+    margin: 2rem;
+    gap: 1.5rem;
+    height: 55rem;
+}
+
+/* Grid item 1, subtitulo con lista */
+.grid-item1A {
+    background-color: #bb93bb;
+    border-radius: 1.3rem;
+    border-style: double;
+    border-color: #eec8ee;
+    grid-row: 1/2;
+}
+
+/* Acomodo del subtitulo del grid item 1*/
+.grid-item1A h2 {
+    font-size: 1.3rem;
+    margin: 0;
+    margin-top: 0.5rem;
+    text-align: center;
+    color: #641164fb;
+}
+
+.grid-item1A ul {
+    padding: 0;
+}
+
+/* Elementos de la lista del item1 */
+body main section div ul li {
+    margin-top: 0.45rem;
+    text-align: center;
+    color: #641164fb;
+}
+
+/* Grid item2, imagen */
+.grid-item2A {
+    grid-row: 2/3;
+}
+
+/* Cambios en la imagen */
+.size-nena {
+    width: 97%;
+    height: 100%;
+    border-radius: 1rem;
+    border: 0.2rem solid white;
+}
+
+/* Grid item 3, h3 */
+.grid-item3A {
+    grid-row: 3/4;
+}
+
+/* Acomodo de h3 */
+.grid-item3A h3 {
+    text-align: center;
+    margin: 2rem 1rem;
+    font-size: 2rem;
+    color: #641164fb;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Grid item 4, video de entrenamientos y preparacion fisica */
+.grid-item4A {
+    grid-row: 4/5;
+}
+
+.video1 {
+    width: 90%;
+    height: 100%;
+    border-radius: 0.4rem;
+}
+
+/* Fin de los grids */
+
+/* Ultimo bloque: p, ul y video */
+.ult-bloque {
+    margin-top: 16rem;
+    text-align: center;
+}
+
+.ult-bloque div ul {
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.ult-bloque div ul li {
+    margin: 0.7rem;
+}
+
+.ult-bloque div h3 {
+    margin: 1rem;
+}
+
+.ult-bloque span {
+    color: #e634e6;
+}
+
+.div-video2 {
+    margin-bottom: 1rem;
+}
+
+.video2 {
+    width: 70%;
+    height: 70%;
+    border-radius: 0.4rem;
+}
+
+/* 
+
+
+
+Espacio de separación
+
+
+
+*/
+
+/* NOSOTROS - PESTAÑA 2*/
+
+/* Grids en el main*/
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 2% 22% 10% 22% 10% 22% 10%;
+    margin: 1rem;
+    margin-top: 0px;
+    height: 100rem;
+    gap: 0.8rem;
+}
+
+.grid-container2 p {
+    margin: 0;
+}
+
+/* Titulo */
+.grid-item1B {
+    grid-row: 1/2;
+}
+
+.grid-item1B h1 {
+    margin: 0;
+    text-align: center;
+}
+
+/* Imagen */
+.grid-item2B {
+    grid-row: 2/3;
+    display: flex;
+    align-items: center;
+}
+
+.grid-item2B img {
+    width: 95%;
+    height: 95%;
+    border: 0.4rem double rgb(187, 171, 171);
+}
+
+/* Parrafo */
+.grid-item3B {
+    grid-row: 3/4;
+}
+
+/* Imagen */
+.grid-item4B {
+    grid-row: 4/5;
+    display: flex;
+    align-items: center;
+}
+
+.grid-item4B img {
+    width: 95%;
+    height: 95%;
+    border: 0.4rem double rgb(187, 171, 171);
+}
+
+/* Parrafo */
+.grid-item5B {
+    grid-row: 5/6;
+}
+
+/* Imagen */
+.grid-item6B {
+    grid-row: 6/7;
+    display: flex;
+    align-items: center;
+}
+
+.grid-item6B img {
+    width: 95%;
+    height: 95%;
+    border: 0.4rem double rgb(187, 171, 171);
+}
+
+/* Parrafo */
+.grid-item7B {
+    grid-row: 7/8;
+}
+
+/* 
+
+
+
+Espacio de separación
+
+
+
+*/
+
+
+/* EVENTOS -PESTAÑA 3 CON BOOTSTRAP */
+
+.eventos {
+    margin: 0.5rem;
+    width: 97%;
+    border-radius: 0.2rem;
+}
+
+/* 
+
+
+
+Espacio de separación
+
+
+
+*/
+
+/* SEDES - PESTAÑA 4 */
+
+/* Grids */
+/* 1 columna 3 filas */
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 13% 72% 15%;
+    margin: 0rem 0.5rem 1.5rem 0.5rem;
+    height: 18rem;
+    row-gap: 0.4rem;
+}
+
+/* Titulo */
+.grid-item1C {
+    grid-row: 1/2;
+}
+
+.grid-item1C h1 {
+    margin: 0px;
+}
+
+
+/* Imagen */
+.grid-item2C {
+    grid-row: 2/3;
+    display: flex;
+    align-items: center;
+}
+
+.grid-item2C img {
+    width: 96%;
+    height: 85%;
+    border: 0.4rem double rgb(187, 171, 171);
+}
+
+/* Parrafo */
+.grid-item3C {
+    grid-row: 3/4;
+}
+
+.grid-item3C p {
+    margin: 0;
+}
+
+/* Grid con mapas y direcciones */
+/* 2 columnas con 5 filas */
+.grid-container4 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 8% 22% 22% 22% 22%;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+    height: 30rem;
+    gap: 0.4rem;
+}
+
+/* Acomodo para los h3 con nombre de cada club */
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* h3 principal */
+.grid-item1D {
+    grid-row: 1/2;
+    grid-column: 1/3;
+}
+
+/* Club mdp */
+.grid-item2D {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+/* Mapa del club mdp */
+.grid-item3D {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+/* Asturiano */
+.grid-item4D {
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+/* Mapa del asturiano */
+.grid-item5D {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+/* Telefonos */
+.grid-item6D {
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+
+/* Mapa de telefonos */
+.grid-item7D {
+    grid-row: 4/5;
+    grid-column: 2/3;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+/* Pompeya */
+.grid-item8D {
+    grid-row: 5/6;
+    grid-column: 2/3;
+}
+
+/* Mapa de pompeya */
+.grid-item9D {
+    grid: 5/6;
+    grid-column: 1/2;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+/* Cambios en h3 y parrafos */
+.dir {
+    color: rgb(201, 32, 173);
+}
+
+.map {
+    font-size: 0.9rem;
+    text-align: center;
+    color: rgb(238, 149, 164);
+}
+
+/* 
+
+
+
+Espacio de separación
+
+
+
+*/
+
+/* CONTACTO -PESTAÑA 5 CON PROPIEDAS DE BOOTSTRAP   */
+
+/* Saco bordes de los casilleros a rellenar */
+.saca-border {
+    border: 0px;
+    border-radius: 0.2rem;
+}
+
+/* Pseudoclase */
+form input:focus {
+    background-color: #eec8ee;
+}
+
+/* Casilla de eleccion del genero */
+.genero {
+    border: 0.05rem solid #e6a8e6fb;
+    border-radius: 0.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+/* 
+
+
+
+
+
+Espacio de separación
+
+
+
+
+
+
+
+*/
+
+/* COMIENZO CON CAMBIOS UTLIZANDO LAS MEDIA QUERYS */
+
+/* MEDIA QUERYS - TABLET/LAPTOP */
+@media only screen and (min-width:768px) and (max-width:1023px) {
+
+    /* HEADER */
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    header nav {
+        margin-right: 1rem;
+    }
+
+    header nav ul {
+        list-style-type: none;
+        display: flex;
+    }
+
+    header nav ul li a {
+        font-size: 1.4rem;
+    }
+
+    .li1 {
+        margin-top: 0.8rem;
+    }
+
+    /* Pseudoclase */
+    header nav ul li a:hover {
+        font-size: 1.5rem;
+    }
+
+    header nav ul li {
+        margin: 0.8rem;
+    }
+
+    /* Logo del header y del footer */
+    .logo {
+        width: 20%;
+        text-align: start;
+    }
+
+    /* Tamaño */
+    .logo-nav {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    /* 
+
+
+
+    Espacio de separación
+
+
+
+    */
+    /* Tamaño de flechas que me llevan hacia arriba y hacia abajo */
+    .flechas {
+        width: 5%;
+    }
+
+    /* Titulo */
+    .title {
+        font-size: 3.5rem;
+    }
+
+    /* Subtitulo */
+    .subt {
+        font-size: 2.3rem;
+    }
+
+    /* Descripciones, mayormente hace referencia a descripciones de imagenes */
+    .description {
+        font-size: 1.4rem;
+        margin: 1rem 3rem;
+    }
+
+    /* 
+
+
+
+    Espacio de separación
+
+
+
+    */
+    /* FOOTER */
+    footer .logo {
+        width: 50%;
+        text-align: start;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .list {
+        display: flex;
+    }
+
+    .seguinos {
+        font-size: 1.5rem;
+    }
+
+    .redes {
+        width: 3.5rem;
+    }
+
+    footer .center h3 {
+        font-size: 1.3rem;
+    }
+
+    footer .center ul li {
+        font-size: 1.2rem;
+    }
+
+    .fijo {
+        width: 2.5rem;
+    }
+
+    /* 
+
+
+
+    Espacio de separación
+
+
+
+    */
+
+    /* iNICIO - PESTAÑA 1*/
+
+    /* Grids en el main*/
+    .grid-container1 {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 36% 64%;
+        margin: 0;
+        padding: 2.3rem;
+        height: 60rem;
+        width: 90%;
+    }
+
+    /* Grid item 1, subtitulo con lista */
+    .grid-item1A {
+        grid-column: 1/2;
+    }
+
+    /* Acomodo del subtitulo del grid item 1*/
+    .grid-item1A h2 {
+        font-size: 2.3rem;
+        margin-top: 1.1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Elementos de la lista del item1 */
+    body main section div ul li {
+        margin-top: 1.5rem;
+        font-size: 1.7rem;
+    }
+
+    /* Grid item 2, imagen */
+    .grid-item2A {
+        grid-row: 1/2;
+        grid-column: 2/3;
+        text-align: center;
+        width: 97%;
+    }
+
+    /* Cambios en la imagen de la nena, item2 */
+    .size-nena {
+        width: 100%;
+        height: 99%;
+    }
+
+    /* Grid item 3, Entrenamientos y preparacion fisica */
+    .grid-item3A {
+        grid-row: 2/3;
+        grid-column: 2/3;
+        display: flex;
+        align-items: center;
+    }
+
+    .grid-item3A h3 {
+        margin: 0;
+        font-size: 3rem;
+    }
+
+    /* Grid item 4, video de entrenamientos y preparacion fisica */
+    .grid-item4A {
+        grid-row: 2/3;
+        grid-column: 1/2;
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+
+    .video1 {
+        width: 100%;
+
+        border-radius: 2rem;
+
+    }
+
+    /* Fin de los grids */
+
+    /* Ultimo bloque, p, ul y video */
+    .ult-bloque {
+        margin: 2rem 1rem 1.5rem 1rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .video2 {
+        width: 90%;
+        height: 85%;
+    }
+
+    .ult-bloque div div h2 {
+        font-size: 2rem;
+    }
+
+    .ult-bloque div div ul li {
+        font-size: 1.5rem;
+    }
+
+    /* 
+
+
+
+    Espacio de separación
+
+
+
+    */
+
+    /* NOSOTROS - PESTAÑA 2*/
+    .grid-container2 {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 5% 28% 28% 31% 8%;
+        margin: 0rem 1rem 4rem 1rem;
+        height: 120rem;
+        gap: 1rem;
+    }
+
+    .grid-container2 p {
+        margin: 1rem;
+    }
+
+    /* Titulo */
+    .grid-item1B {
+        grid-column: 1/3;
+    }
+
+    /* Imagen */
+    .grid-item2B {
+        grid-column: 1/2;
+    }
+
+    .grid-item2B img {
+        width: 98%;
+        height: 90%;
+    }
+
+    /* Parrafo */
+    .grid-item3B {
+        grid-row: 2/3;
+        grid-column: 2/3;
+        display: flex;
+        align-items: center;
+        margin: 2rem;
+    }
+
+    /* Imagen */
+    .grid-item4B {
+        grid-row: 3/4;
+        grid-column: 2/3;
+    }
+
+    .grid-item4B img {
+        width: 90%;
+        height: 90%;
+    }
+
+    /* Parrafo */
+    .grid-item5B {
+        grid-row: 3/4;
+        grid-column: 1/2;
+        display: flex;
+        align-items: center;
+        margin: 2rem;
+    }
+
+    /* Imagen */
+    .grid-item6B {
+        grid-row: 4/5;
+        grid-column: 1/3;
+        display: block;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .grid-item6B img {
+        width: 75%;
+        height: 98%;
+    }
+
+    /* Parrafo */
+    .grid-item7B {
+        grid-row: 5/6;
+        grid-column: 1/3;
+        display: flex;
+        align-items: center;
+        margin: 0rem 2rem;
+    }
+
+    .grid-item7B p {
+        margin: 0;
+    }
+
+    /* 
+
+
+
+    Espacio de separación
+
+
+
+    */
+    /* EVENTOS - PESTAÑA 3 - NIUNGÚN CAMBIO */
+    /* 
+
+
+
+    Espacio de separación
+
+
+
+    */
+    /* SEDES - PESTAÑA 4 */
+
+    /* Grid, titulo, imagen y p */
+    .grid-container3 {
+        grid-template-rows: 12% 78% 10%;
+        margin: 0rem 0.5rem 2.5rem 0.5rem;
+        height: 30rem;
+        row-gap: 1rem;
+    }
+
+    /* Titulo */
+    .grid-item1C {
+        display: block;
+    }
+
+    /* Imagen */
+    .grid-item2C {
+        display: block;
+        text-align: center;
+    }
+
+    .grid-item2C img {
+        height: 95%;
+    }
+
+    /* Parrafo */
+    .grid-item3C {
+        display: block;
+        margin: 0rem 1rem;
+    }
+
+    /* Grid, subtitulo, direcciones con mapas */
+    .grid-container4 {
+        grid-template-rows: 8% 23% 23% 23% 23%;
+        margin: 0rem;
+        margin-bottom: 4rem;
+        gap: 0.7rem;
+    }
+
+    .grid-item3D img {
+        width: 17%;
+    }
+
+    .grid-item5D img {
+        width: 17%;
+    }
+
+    .grid-item7D img {
+        width: 17%;
+    }
+
+    .grid-item9D img {
+        width: 17%;
+    }
+
+    /* Modificaciones en h3 y p dentro del grid */
+    .dir {
+        font-size: 1.8rem;
+    }
+
+    .map {
+        font-size: 1.3rem;
+    }
+
+}
+
+/* 
+
+
+
+
+
+Espacio de separación
+
+
+
+
+
+
+
+*/
+
+/* MEDIA QUERYS / LAPTOP L */
+@media only screen and (min-width:1024px) and (max-width:1440px) {
+
+    /* HEADER */
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    header nav {
+        margin-right: 1rem;
+    }
+
+    header nav ul {
+        list-style-type: none;
+        display: flex;
+    }
+
+    header .logo {
+        width: 20%;
+        text-align: start;
+    }
+
+    header nav ul li a {
+        font-size: 1.85rem;
+    }
+
+    header nav ul li a:hover {
+        font-size: 2rem;
+    }
+
+    .li1 {
+        margin-top: 0.8rem;
+    }
+
+    header nav ul li {
+        margin: 0.8rem;
+    }
+
+    .logo {
+        width: 50%;
+        text-align: center;
+    }
+
+    .logo-nav {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    /* 
+
+
+
+    Espacio de separación
+
+
+
+    */
+
+    /* MAIN */
+    /* Flechas que me llevan hacia arriba y hacia abajo */
+    .flechas {
+        width: 3.5%;
+        height: 1%;
+    }
+
+    /* Titulo */
+    .title {
+        font-size: 4.6rem;
+    }
+
+    /* Subtitulo */
+    .subt {
+        font-size: 3.4rem;
+    }
+
+    /* Descripciones, mayormente de las imagenes */
+    .description {
+        font-size: 1.8rem;
+        margin: 1rem 4rem;
+    }
+
+    /* 
+
+
+
+    Espacio de separación
+
+
+
+    */
+    /* FOOTER */
+    footer .logo {
+        width: 20%;
+        text-align: start;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    footer .list {
+        display: flex;
+    }
+
+    .seguinos h3 {
+        font-size: 2.5rem;
+    }
+
+    .redes {
+        width: 4rem;
+    }
+
+    footer .center h3 {
+        font-size: 2rem;
+    }
+
+    footer .center ul li {
+        font-size: 1.7rem;
+    }
+
+    .fijo {
+        width: 3rem;
+    }
+
+    footer h3 {
+        font-weight: bold !important;
+    }
+
+    /* 
+
+
+
+    Espacio de separación
+
+
+
+    */
+
+    /* POR PESTAÑA */
+
+    /* iNICIO - PESTAÑA 1*/
+
+    /* Grids en el main*/
+    .grid-container1 {
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 36% 64%;
+        padding-left: 4rem;
+        height: 80rem;
+        width: 90%;
+    }
+
+    /* Grid item 1, subtitulo con lista */
+    .grid-item1A {
+        grid-column: 1/2;
+    }
+
+    /* Acomodo del subtitulo del grid item 1*/
+    .grid-item1A h2 {
+        font-size: 2.8rem;
+        margin-top: 2.8rem;
+        margin-bottom: 1.8rem;
+    }
+
+    /* Elementos de la lista del item1 */
+    body main section div ul li {
+        margin-top: 1.3rem;
+        font-size: 2.2rem;
+    }
+
+    /* Grid item 2,imagen */
+    .grid-item2A {
+        grid-row: 1/2;
+        grid-column: 2/3;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* Cambios en la imagen de la nena, item2 */
+    .size-nena {
+        width: 100%;
+        height: 99%;
+    }
+
+    /* Grid item 3, entrenamientos y preparación física */
+    .grid-item3A {
+        grid-row: 2/3;
+        grid-column: 2/3;
+        display: flex;
+        align-items: center;
+    }
+
+    /* Grid item 3, h3 */
+    .grid-item3A h3 {
+        margin: 0;
+        font-size: 3.3rem;
+    }
+
+    /* Grid item 4, video de entrenamientos y preparacion fisica - grid item 4*/
+    .grid-item4A {
+        grid-row: 2/3;
+        grid-column: 1/2;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .video1 {
+        width: 100%;
+        border-radius: 1.5rem;
+
+    }
+
+    /* Fin de los grids */
+
+    /* Ultimo bloque, p, ul y video */
+    .ult-bloque {
+        margin: 2rem 1rem 1.5rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 4rem;
+    }
+
+    .video2 {
+        width: 90%;
+        height: 85%;
+    }
+
+    .ult-bloque ul li {
+        font-size: 2.2rem;
+    }
+
+    /* 
+
+
+
+    Espacio de separación
+
+
+
+    */
+
+    /* NOSOTROS - PESTAÑA 2*/
+
+    .grid-container2 {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 5% 28% 28% 31% 8%;
+        margin-top: 0px;
+        margin: 0rem 1rem 4rem 1rem;
+        height: 120rem;
+        gap: 1rem;
+    }
+
+    .grid-container2 p {
+        margin: 1rem;
+    }
+
+    /* Titulo */
+    .grid-item1B {
+        grid-column: 1/3;
+    }
+
+    /* Imagen */
+    .grid-item2B {
+        grid-column: 1/2;
+    }
+
+    .grid-item2B img {
+        width: 90%;
+        height: 100%;
+        margin-left: 2rem;
+    }
+
+    /* Parrafo */
+    .grid-item3B {
+        grid-row: 2/3;
+        grid-column: 2/3;
+        display: flex;
+        align-items: center;
+        margin: 2rem;
+    }
+
+    /* Imagen */
+    .grid-item4B {
+        grid-row: 3/4;
+        grid-column: 2/3;
+    }
+
+    .grid-item4B img {
+        width: 90%;
+        height: 100%;
+    }
+
+    /* Parrafo */
+    .grid-item5B {
+        grid-row: 3/4;
+        grid-column: 1/2;
+        display: flex;
+        align-items: center;
+        margin: 2rem;
+    }
+
+    /* Imagen */
+    .grid-item6B {
+        grid-row: 4/5;
+        grid-column: 1/3;
+        display: block;
+        text-align: center;
+        margin-top: 2.5rem;
+    }
+
+    .grid-item6B img {
+        width: 55%;
+        height: 98%;
+    }
+
+    /* Parrafo */
+    .grid-item7B {
+        grid-row: 5/6;
+        grid-column: 1/3;
+        display: flex;
+        align-items: center;
+        margin: 0rem 3.5rem;
+    }
+
+    .grid-item7B p {
+        margin: 0;
+    }
+
+    /* 
+
+
+
+    Espacio de separación
+
+
+
+    */
+
+    /* EVENTOS - PESTAÑA 3 */
+    .eventos {
+        margin: 2rem 3rem;
+        width: 90%;
+    }
+
+    /* 
+
+
+
+    Espacio de separación
+
+
+
+    */
+
+    /* SEDES - PESTAÑA 4 */
+
+    .grid-container3 {
+        grid-template-rows: 12% 78% 10%;
+        margin: 0rem 1rem 2.5rem 1rem;
+        height: 47rem;
+        row-gap: 1rem;
+    }
+
+    /* Titulo */
+    .grid-item1C {
+        display: block;
+    }
+
+    /* Imagen */
+    .grid-item2C {
+        display: block;
+        text-align: center;
+        margin-top: 1.2rem;
+    }
+
+    .grid-item2C img {
+        width: 95%;
+        height: 100%;
+    }
+
+    /* Parrafo */
+    .grid-item3C {
+        display: block;
+        margin: 1rem 1.3rem;
+    }
+
+    /* Grid con nombre de cada club y los mapas de cada uno */
+    .grid-container4 {
+        grid-template-rows: 12% 22% 22% 22% 22%;
+        margin: 0rem 4rem 4rem 4rem;
+        gap: 1rem;
+        height: 45rem;
+    }
+
+    .grid-item3D img {
+        width: 14%;
+    }
+
+    .grid-item5D img {
+        width: 14%;
+    }
+
+    .grid-item7D img {
+        width: 14%;
+    }
+
+    .grid-item9D img {
+        width: 14%;
+    }
+
+    /* Cambios en los nombres de cada club y p de los mapas */
+    .dir {
+        font-size: 2.2rem;
+    }
+
+    .map {
+        font-size: 1.6rem;
+    }
+}
+
+/* 
+
+
+
+
+
+Espacio de separación
+
+
+
+
+
+
+
+*/
+/* MEDIA QUERYS / DESKTOP */
+@media only screen and (min-width:1441px) and (max-width:2560px) {
+
+    /* HEADER */
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0rem 3rem;
+    }
+
+    header nav ul {
+        list-style-type: none;
+        display: flex;
+    }
+
+    header .logo {
+        width: 20%;
+        text-align: start;
+    }
+
+    header nav ul li a {
+        font-size: 2.2rem;
+    }
+
+    header nav ul li a:hover {
+        font-size: 2.5rem;
+    }
+
+    .li1 {
+        margin-top: 1rem;
+    }
+
+    header nav ul li {
+        margin: 1rem;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .logo-nav {
+        width: 17rem;
+        height: 17rem;
+    }
+
+    /* 
+
+
+
+    Espacio de separación
+
+
+
+    */
+
+    /* MAIN */
+    /* Flechas que me llevan hacia arriba y hacia abajo */
+    .flechas {
+        width: 2%;
+        height: 2%;
+    }
+
+    /* Titulo */
+    .title {
+        font-size: 4.8rem;
+    }
+
+    /* Subtitulo */
+    .subt {
+        font-size: 3.7rem;
+    }
+
+    /* Descripciones, mayormente de las imagenes */
+    .description {
+        font-size: 2rem;
+        margin: 1rem 7rem;
+    }
+
+    /* 
+
+
+
+    Espacio de separación
+
+
+
+    */
+    /* FOOTER */
+    footer .logo {
+        width: 20%;
+        text-align: start;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0rem 3rem;
+    }
+
+    footer .list {
+        display: flex;
+    }
+
+    .seguinos h3 {
+        font-size: 2.8rem;
+    }
+
+    .redes {
+        width: 4.5rem;
+        margin-left: 0.7rem;
+    }
+
+    footer .center h3 {
+        font-size: 2.3rem;
+    }
+
+    footer .center ul li {
+        font-size: 2rem;
+    }
+
+    .fijo {
+        width: 3.6rem;
+    }
+
+    footer h3 {
+        font-weight: bold !important;
+    }
+
+    /* 
+
+
+
+    Espacio de separación
+
+
+
+    */
+
+    /* POR PESTAÑA */
+
+    /* iNICIO - PESTAÑA 1*/
+
+    /* Grids en el main*/
+    .grid-container1 {
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 36% 64%;
+        padding-left: 8rem;
+        gap: 3.5rem;
+        height: 140rem;
+        width: 90%;
+    }
+
+    /* Grid item 1, subtitulo con lista */
+    .grid-item1A {
+        grid-column: 1/2;
+    }
+
+    /* Acomodo del subtitulo del grid item 1*/
+    .grid-item1A h2 {
+        font-size: 4.7rem;
+        margin-top: 4.8rem;
+        margin-bottom: 3.8rem;
+    }
+
+    /* Elementos de la lista del item1 */
+    body main section div ul li {
+        margin-top: 2.2rem;
+        font-size: 3.2rem;
+    }
+
+    /* Grid item 2,imagen */
+    .grid-item2A {
+        grid-row: 1/2;
+        grid-column: 2/3;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* Cambios en la imagen de la nena, item2 */
+    .size-nena {
+        width: 90%;
+        height: 99%;
+    }
+
+    /* Grid item 3, entrenamientos y preparación física */
+    .grid-item3A {
+        grid-row: 2/3;
+        grid-column: 2/3;
+        display: flex;
+        align-items: center;
+    }
+
+    /* Grid item 3, h3 */
+    .grid-item3A h3 {
+        margin: 0;
+        font-size: 5.3rem;
+    }
+
+    /* Grid item 4, video de entrenamientos y preparacion fisica - grid item 4*/
+    .grid-item4A {
+        grid-row: 2/3;
+        grid-column: 1/2;
+        width: 100%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+    }
+
+    .video1 {
+        width: 100%;
+        border-radius: 1.5rem;
+
+    }
+
+    /* Fin de los grids */
+
+    /* Ultimo bloque, p, ul y video */
+    .ult-bloque {
+        margin: 4rem 1rem 1.5rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 4rem;
+    }
+
+    .video2 {
+        width: 100%;
+        height: 95%;
+    }
+
+    .ult-bloque ul li {
+        font-size: 2.8rem;
+    }
+
+    /* 
+
+
+
+    Espacio de separación
+
+
+
+    */
+
+    /* NOSOTROS - PESTAÑA 2*/
+
+    .grid-container2 {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 2% 32% 32% 32% 4%;
+        margin: 0rem 1rem 7rem 1rem;
+        height: 260rem;
+        gap: 1rem;
+    }
+
+    .grid-container2 p {
+        margin: 1rem;
+    }
+
+    /* Titulo */
+    .grid-item1B {
+        grid-column: 1/3;
+    }
+
+    /* Imagen */
+    .grid-item2B {
+        grid-column: 1/2;
+    }
+
+    .grid-item2B img {
+        width: 90%;
+        margin-left: 2rem;
+    }
+
+    /* Parrafo */
+    .grid-item3B {
+        grid-row: 2/3;
+        grid-column: 2/3;
+        display: flex;
+        align-items: center;
+        margin: 2rem;
+    }
+
+    /* Imagen */
+    .grid-item4B {
+        grid-row: 3/4;
+        grid-column: 2/3;
+        display: flex;
+        align-items: center;
+    }
+
+    .grid-item4B img {
+        width: 85%;
+        height: 100%;
+    }
+
+    /* Parrafo */
+    .grid-item5B {
+        grid-row: 3/4;
+        grid-column: 1/2;
+        display: flex;
+        align-items: center;
+        margin: 2rem;
+    }
+
+    /* Imagen */
+    .grid-item6B {
+        grid-row: 4/5;
+        grid-column: 1/3;
+        display: block;
+        text-align: center;
+        margin-top: 2.5rem;
+    }
+
+    .grid-item6B img {
+        width: 45%;
+        height: 98%;
+    }
+
+    /* Parrafo */
+    .grid-item7B {
+        grid-row: 5/6;
+        grid-column: 1/3;
+        display: flex;
+        align-items: center;
+        margin: 0rem 3.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .grid-item7B p {
+        margin: 0;
+    }
+
+    /* 
+
+
+
+    Espacio de separación
+
+
+
+    */
+
+    /* EVENTOS - PESTAÑA 3 */
+    .eventos {
+        margin: 2rem 38rem;
+        width: 50%;
+    }
+
+    /* 
+
+
+
+    Espacio de separación
+
+
+
+    */
+
+    /* SEDES - PESTAÑA 4 */
+
+    .grid-container3 {
+        grid-template-columns: 100%;
+        grid-template-rows: 12% 81% 7%;
+        margin: 0rem 1rem 2.5rem 1rem;
+        height: 67rem;
+        row-gap: 1rem;
+    }
+
+    /* Titulo */
+    .grid-item1C {
+        display: block;
+    }
+
+    /* Imagen */
+    .grid-item2C {
+        display: block;
+        text-align: center;
+        margin-top: 1.2rem;
+    }
+
+    .grid-item2C img {
+        width: 70%;
+        height: 100%;
+    }
+
+    /* Parrafo */
+    .grid-item3C {
+        display: block;
+
+        margin: 1rem 53.3rem;
+    }
+
+    /* Grid con nombre de cada club y los mapas de cada uno */
+    .grid-container4 {
+        margin: 4rem 4rem 10rem 4rem;
+        gap: 3rem;
+        height: 65rem;
+    }
+
+    .grid-item3D img {
+        width: 10%;
+    }
+
+    .grid-item5D img {
+        width: 10%;
+    }
+
+    .grid-item7D img {
+        width: 10%;
+    }
+
+    .grid-item9D img {
+        width: 10%;
+    }
+
+    /* Cambios en los nombres de cada club y p de los mapas */
+    .dir {
+        font-size: 2.4rem;
+    }
+
+    .map {
+        font-size: 1.8rem;
+    }
+
+    /* 
+
+
+
+    Espacio de separación
+
+
+
+    */
+
+    /* CONTACTO - PESTAÑA 5 */
+    .tam {
+        font-size: 1.8rem;
+    }
+}
