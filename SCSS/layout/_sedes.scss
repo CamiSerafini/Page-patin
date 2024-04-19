@@ -4,7 +4,7 @@ main{
     .grid-container3 {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 13% 72% 15%;
+        grid-template-rows: 15% 50% 35%;
         margin: $nulo 0.5rem 1.5rem 0.5rem;
         height: 25rem;
         row-gap: 0.4rem;
@@ -27,8 +27,13 @@ main{
             }
         }
         //Parrafo
-        .grid-item3C {
+        .grid-item3C{
             grid-row: 3/4;
+            h2{
+                text-align: $centrado;
+                margin-bottom: 0.3rem;
+                @include tit-subt($font,1.2rem,bolder,#aa16ab,none);
+            }
             p{
                 margin: $nulo;
             }

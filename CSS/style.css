@@ -202,10 +202,10 @@ main {
 main .grid-container2 {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 2% 22% 10% 22% 10% 22% 10%;
+  grid-template-rows: 4% 23% 9% 24% 8% 24% 6%;
   margin: 1rem;
   margin-top: 0px;
-  height: 100rem;
+  height: 80rem;
   gap: 0.8rem;
   /* Titulo */
   /* Imagen */
@@ -213,6 +213,8 @@ main .grid-container2 {
 }
 main .grid-container2 .grid-item1B {
   grid-row: 1/2;
+  display: flex;
+  align-items: center;
 }
 main .grid-container2 .grid-item1B .grid-item1B h1 {
   margin: 0px;
@@ -231,6 +233,14 @@ main .grid-container2 .grid-item2B img {
 main .grid-container2 .grid-item3B {
   grid-row: 3/4;
 }
+main .grid-container2 .grid-item3B h2 {
+  padding: 4px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: rgba(100, 17, 100, 0.9843137255);
+  text-align: center;
+}
 main .grid-container2 .grid-item3B p {
   margin: 0px;
 }
@@ -246,6 +256,14 @@ main .grid-container2 .grid-item4B img {
 }
 main .grid-container2 .grid-item5B {
   grid-row: 5/6;
+}
+main .grid-container2 .grid-item5B h2 {
+  padding: 4px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: rgba(100, 17, 100, 0.9843137255);
+  text-align: center;
 }
 main .grid-container2 .grid-item5B p {
   margin: 0px;
@@ -276,7 +294,7 @@ main section div .eventos {
 main .grid-container3 {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 13% 72% 15%;
+  grid-template-rows: 15% 50% 35%;
   margin: 0px 0.5rem 1.5rem 0.5rem;
   height: 25rem;
   row-gap: 0.4rem;
@@ -299,6 +317,15 @@ main .grid-container3 .grid-item2C img {
 }
 main .grid-container3 .grid-item3C {
   grid-row: 3/4;
+}
+main .grid-container3 .grid-item3C h2 {
+  text-align: center;
+  margin-bottom: 0.3rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: #aa16ab;
+  text-align: none;
 }
 main .grid-container3 .grid-item3C p {
   margin: 0px;

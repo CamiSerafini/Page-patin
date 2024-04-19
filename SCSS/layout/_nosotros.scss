@@ -3,14 +3,16 @@ main{
     .grid-container2 {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 2% 22% 10% 22% 10% 22% 10%;
+        grid-template-rows: 4% 23% 9% 24% 8% 24% 6%;
         margin: 1rem;
         margin-top: $nulo;
-        height: 100rem;
+        height: 80rem;
         gap: 0.8rem;
         /* Titulo */
         .grid-item1B {
             grid-row: 1/2;
+            display: $flex;
+            align-items: $centrado;
             .grid-item1B h1 {
                 margin: $nulo;
                 text-align: $centrado;
@@ -30,6 +32,10 @@ main{
         /* Parrafo */
         .grid-item3B {
             grid-row: 3/4;
+            h2{
+                padding: 4px;
+                @include tit-subt($font,1.3rem,bolder,#641164fb,$centrado)
+            }
             p{
                 margin: $nulo;
             }
@@ -48,6 +54,10 @@ main{
         //Parrafo
         .grid-item5B {
             grid-row: 5/6;
+            h2{
+                padding: 4px;
+                @include tit-subt($font,1.3rem,bolder,#641164fb,$centrado)
+            }
             p{
                 margin: $nulo;
             }
