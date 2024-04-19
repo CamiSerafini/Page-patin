@@ -1,7 +1,7 @@
 //TODO LO QUE HAGA ACA ES MOBILE, LAS DEMAS PANTALLAS ESTARÁN EN MEDIAS-QUERIES
 //MARGEN A TODO NULO
 *{
-    margin: 0;
+    margin: $nulo;
 }
 
 //LOGO DE WHATS APP FIJO EN TODAS LAS PAGINAS
@@ -14,7 +14,7 @@
 
 //CENTRADO
 .center {
-    text-align: center;
+    text-align: $centrado;
 }
 
 //FONDO DE PANTALLA A TODA LA PAGINA
@@ -24,21 +24,19 @@ body {
 
 //ENLACES
 a {
-    color: #aa16ab;
+    @include tit-subt($font,none,bolder,#aa16ab,none);
     text-decoration-line: none;
-    font-family: $font;
-    font-weight: bolder;
 }
 
 //TITULOS
 .title {
-    @include tit-subt($font,2rem,bold,$color-princ,$aling-centrado);
-    margin: 0rem 1rem 0rem 1rem;
+    @include tit-subt($font,2rem,bold,$color-princ,$centrado);
+    margin: $nulo 1rem;
 }
 
 //SUBTITULOS
 .subt {
-    @include tit-subt($font,1.5rem,bolder,$color-princ,$aling-centrado);
+    @include tit-subt($font,1.5rem,bolder,$color-princ,$centrado);
 }
 
 //DESCRIPCIONES
@@ -55,7 +53,13 @@ a {
 
 .list {
     list-style-type: none;
-    text-align: center;
-    padding: 0;
-    margin: 0;
+    text-align: $centrado;
+    padding: $nulo;
+    margin: $nulo;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

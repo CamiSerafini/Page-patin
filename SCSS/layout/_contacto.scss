@@ -1,0 +1,22 @@
+main{
+    section{
+        .saca-border {
+            border: $nulo;
+            border-radius: 0.2rem;
+        }
+        form{
+
+            //pseudaclase
+            input:focus {
+                background-color: #eec8ee;
+            }   
+        }  
+        //Casilla de eleccion del genero
+        .genero {
+            border: 0.05rem solid #e6a8e6fb;
+            border-radius: 0.2rem;
+            font-family: $font;
+            font-size: 1rem;
+        }
+    }
+}

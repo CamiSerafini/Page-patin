@@ -1,32 +1,10 @@
-//VARIABLES - MIXINS
-
-$color-princ : #750f75de;
-$font: 'Times New Roman', Times, serif;
-$aling-centrado: center;
-
-@mixin tit-subt($fuente,$tamaño,$negrita,$colour,$centrado){
-    font-family: $fuente;
-    font-size: $tamaño;
-    font-weight: $negrita;
-    color: $colour;
-    text-align: $centrado;
-}
-
-@mixin log($ancho,$centrado){
-    width: $ancho;
-    text-align: $centrado;
-}
-
-@mixin log-nav($ancho,$alto){
-    width: $ancho;
-    height: $alto;
-}
-
-
-
-
 //IMPORT
+@import "utilities/mixins-vars";
 @import "base/reset.scss";
 @import "layout/header.scss";
-@import "layout/principal-inicio.scss";
+@import "layout/inicio.scss";
+@import "layout/nosotros.scss";
+@import "layout/eventos.scss";
+@import "layout/sedes.scss";
+@import "layout/contacto.scss";
 @import "layout/footer.scss";

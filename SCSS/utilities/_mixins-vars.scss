@@ -1,0 +1,25 @@
+//VARIABLES - MIXINS
+
+$color-princ : #750f75de;
+$font: 'Times New Roman', Times, serif;
+$centrado: center;
+$nulo: 0px;
+$flex: flex;
+
+@mixin tit-subt($fuente,$tamaño,$negrita,$colour,$centrado){
+    font-family: $fuente;
+    font-size: $tamaño;
+    font-weight: $negrita;
+    color: $colour;
+    text-align: $centrado;
+}
+
+@mixin log($ancho,$centrado){
+    width: $ancho;
+    text-align: $centrado;
+}
+
+@mixin log-nav($ancho,$alto){
+    width: $ancho;
+    height: $alto;
+}

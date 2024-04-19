@@ -5,22 +5,25 @@ footer {
     border-top: 0.15rem solid #f1b9f1;
 
     .logo{
-        @include log(100%,$aling-centrado);
+        @include log(100%,$centrado);
 
         .logo-nav {
             @include log-nav(7rem,7rem);
         }
     }
 
-    h3{
-        font-weight: bold !important;
-    }
+   
 
     div{
         .seguinos {
+
+            h2{
+                font-weight: bold !important;
+            }
+
             display: flex;
-            align-items: center;
-            justify-content: center;
+            align-items: $centrado;
+            justify-content: $centrado;
 
             .redes{
                 width: 2.5rem;
