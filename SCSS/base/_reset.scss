@@ -1,0 +1,61 @@
+//TODO LO QUE HAGA ACA ES MOBILE, LAS DEMAS PANTALLAS ESTARÁN EN MEDIAS-QUERIES
+//MARGEN A TODO NULO
+*{
+    margin: 0;
+}
+
+//LOGO DE WHATS APP FIJO EN TODAS LAS PAGINAS
+.fijo {
+    position: fixed;
+    right: 0.8rem;
+    bottom: 0.8rem;
+    width: 2rem;
+}
+
+//CENTRADO
+.center {
+    text-align: center;
+}
+
+//FONDO DE PANTALLA A TODA LA PAGINA
+body {  
+    background-color: #ffe0ee;
+}
+
+//ENLACES
+a {
+    color: #aa16ab;
+    text-decoration-line: none;
+    font-family: $font;
+    font-weight: bolder;
+}
+
+//TITULOS
+.title {
+    @include tit-subt($font,2rem,bold,$color-princ,$aling-centrado);
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+//SUBTITULOS
+.subt {
+    @include tit-subt($font,1.5rem,bolder,$color-princ,$aling-centrado);
+}
+
+//DESCRIPCIONES
+.description {
+    @include tit-subt($font,1rem,none,#73626E,justify);
+    margin: 1rem 1.5rem;
+}
+
+//FLECHAS PARA SUBIR Y BAJAR DIRECTAMENTE
+.flechas {
+    width: 7%;
+}
+
+
+.list {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}

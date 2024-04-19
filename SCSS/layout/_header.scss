@@ -1,0 +1,41 @@
+//HEADER DE TODAS LAS PESTAÑAS - MOBILE
+header{
+    font-family: $font;
+    border-bottom: 0.15rem solid #f1b9f1;
+
+    .logo{
+        @include log(100%,$aling-centrado);
+
+        .logo-nav {
+            @include log-nav(7rem,7rem);
+        }
+    }
+
+    nav{          
+        .list{
+            .li1{
+                margin-top: 0;
+            }
+            //Lista del nav del header 
+            li{
+                margin: 0.6rem;
+                padding: 0rem;
+                line-height: normal;
+
+                a{
+                    font-size: 1.1rem;
+                    transition: 1s;
+                    &:hover{
+                        color: #ca89ca;
+                        font-size: 1.16rem;
+                    }
+                }
+            }
+            list-style-type: none;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+    } 
+    
+}

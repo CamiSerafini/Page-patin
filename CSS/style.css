@@ -1,10 +1,22 @@
-@charset "UTF-8";
-header {
-  font-family: "Times New Roman", Times, serif;
-  border-bottom: 0.15rem solid #f1b9f1;
+* {
+  margin: 0;
 }
 
-/* Enlaces */
+.fijo {
+  position: fixed;
+  right: 0.8rem;
+  bottom: 0.8rem;
+  width: 2rem;
+}
+
+.center {
+  text-align: center;
+}
+
+body {
+  background-color: #ffe0ee;
+}
+
 a {
   color: #aa16ab;
   text-decoration-line: none;
@@ -12,39 +24,34 @@ a {
   font-weight: bolder;
 }
 
-/* Lista del nav del header */
-header nav ul li {
-  margin: 0.6rem;
-  padding: 0rem;
-  line-height: normal;
+.title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgba(117, 15, 117, 0.8705882353);
+  text-align: center;
+  margin: 0rem 1rem 0rem 1rem;
 }
 
-/* Pseudoclase en el nav */
-header nav ul li a:hover {
-  color: #ca89ca;
-  font-size: 1.16rem;
-}
-
-/* Tamaño de la letra en la lista del nav del header */
-header nav ul li a {
-  font-size: 1.1rem;
-}
-
-/* Aplicado al div que contiene la imagen del logo */
-.logo {
-  width: 100%;
+.subt {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: rgba(117, 15, 117, 0.8705882353);
   text-align: center;
 }
 
-/* Tamaño del logo */
-.logo-nav {
-  width: 7rem;
-  height: 7rem;
+.description {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  font-weight: none;
+  color: #73626E;
+  text-align: justify;
+  margin: 1rem 1.5rem;
 }
 
-/* Para que me quede un poco mas cerca la lista del logo */
-.li1 {
-  margin-top: 0;
+.flechas {
+  width: 7%;
 }
 
 .list {
@@ -52,6 +59,71 @@ header nav ul li a {
   text-align: center;
   padding: 0;
   margin: 0;
+}
+
+header {
+  font-family: "Times New Roman", Times, serif;
+  border-bottom: 0.15rem solid #f1b9f1;
+}
+header .logo {
+  width: 100%;
+  text-align: center;
+}
+header .logo .logo-nav {
+  width: 7rem;
+  height: 7rem;
+}
+header nav .list {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+header nav .list .li1 {
+  margin-top: 0;
+}
+header nav .list li {
+  margin: 0.6rem;
+  padding: 0rem;
+  line-height: normal;
+}
+header nav .list li a {
+  font-size: 1.1rem;
+  transition: 1s;
+}
+header nav .list li a:hover {
+  color: #ca89ca;
+  font-size: 1.16rem;
+}
+
+footer {
+  color: #aa16ab;
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+  border-top: 0.15rem solid #f1b9f1;
+}
+footer .logo {
+  width: 100%;
+  text-align: center;
+}
+footer .logo .logo-nav {
+  width: 7rem;
+  height: 7rem;
+}
+footer h3 {
+  font-weight: bold !important;
+}
+footer div .seguinos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer div .seguinos .redes {
+  width: 2.5rem;
+  margin-left: 0.5rem;
+}
+footer div .center .list li {
+  margin: 0.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */
