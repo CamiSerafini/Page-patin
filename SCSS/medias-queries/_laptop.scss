@@ -146,21 +146,27 @@
     }
     //EVENTOS
     .events-main{
-        div{
-            .title{
-                font-size: 4.5rem;
-            }
-        }
         section{
-            .subt{
-                font-size: 3.5rem;
+            width: 80%;
+            margin-left: 6rem;
+
+            div{
+                .title{
+                    font-size: 4.5rem;
+                }
+            }
+            section{
+                .subt{
+                    font-size: 3.5rem;
+                }
+            }
+            .center{
+                .subt{
+                    font-size: 3.7rem;
+                }
             }
         }
-        .center{
-            .subt{
-                font-size: 3.7rem;
-            }
-        }
+        
     }
     //SEDES
     main{
@@ -304,6 +310,7 @@
             }
         }
     }
+
     main{
         .grid-container1{
             width: 80%;
@@ -341,6 +348,13 @@
             }
         }
     }
+    .events-main{
+        section{
+            width: 80%;
+            margin-left: 9rem;
+        }
+    }
+
     footer{
         .logo{
             .logo-nav{

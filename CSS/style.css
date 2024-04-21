@@ -616,6 +616,9 @@ footer div .center .list li {
   main .ult-bloque .div-video2 .video2 {
     width: 70%;
   }
+  .events-main {
+    height: 84rem;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 2560px) {
   header {
@@ -1081,13 +1084,17 @@ footer div .center .list li {
   main .grid-container2 .grid-item7B .description {
     font-size: 1.9rem;
   }
-  .events-main div .title {
+  .events-main section {
+    width: 80%;
+    margin-left: 6rem;
+  }
+  .events-main section div .title {
     font-size: 4.5rem;
   }
-  .events-main section .subt {
+  .events-main section section .subt {
     font-size: 3.5rem;
   }
-  .events-main .center .subt {
+  .events-main section .center .subt {
     font-size: 3.7rem;
   }
   main .grid-container3 {
@@ -1200,6 +1207,10 @@ footer div .center .list li {
   }
   main .esperamos .subt {
     font-size: 3.5rem;
+  }
+  .events-main section {
+    width: 80%;
+    margin-left: 9rem;
   }
   footer .logo .logo-nav {
     width: 17rem;
@@ -1345,8 +1356,7 @@ footer div .center .list li {
     font-size: 2.4rem;
   }
   .events-main section {
-    width: 70%;
-    margin-left: 25rem;
+    margin-left: 14rem;
   }
   .events-main div .title {
     font-size: 5rem;
