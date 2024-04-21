@@ -435,4 +435,132 @@ footer div .center .list li {
   margin: 0.6rem;
 }
 
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  header .logo-nav {
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+  header nav .list li a {
+    font-size: 1.2rem;
+  }
+  main .center .ocupa {
+    width: 92%;
+  }
+  main .center p {
+    font-size: 1.15rem;
+  }
+  main .grid-container1 {
+    height: 53rem;
+    grid-template-rows: 26% 34% 10% 48%;
+  }
+  main .grid-container1 .grid-item1A h2 {
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  main .grid-container1 .grid-item1A ul li {
+    font-size: 1.2rem;
+  }
+  main .grid-container1 .grid-item2A {
+    display: flex;
+    align-items: center;
+  }
+  main .grid-container1 .grid-item2A .size-nena {
+    height: 95%;
+  }
+  main .grid-container1 .grid-item3A {
+    display: flex;
+    align-items: center;
+  }
+  main .grid-container1 .grid-item4A {
+    display: flex;
+    align-items: center;
+  }
+  main .grid-container1 .grid-item4A .video1 {
+    width: 100%;
+    height: 95%;
+  }
+  main .ult-bloque {
+    margin-top: 15rem;
+  }
+  main .ult-bloque div ul li {
+    font-size: 1.1rem;
+  }
+  main .ult-bloque .div-video2 {
+    margin: 1rem 0px;
+  }
+  main .ult-bloque .div-video2 .video2 {
+    width: 70%;
+  }
+  main .esperamos h2 {
+    font-size: 2rem;
+  }
+}
+main .grid-container2 {
+  grid-template-rows: 2% 25% 7% 26% 6% 25% 7%;
+  height: 100rem;
+  gap: 1rem;
+}
+main .grid-container2 .grid-item1B {
+  display: inline;
+}
+main .grid-container2 .grid-item3B h2 {
+  font-size: 1.4rem;
+}
+main .grid-container2 .grid-item3B p {
+  font-size: 1.1rem;
+}
+main .grid-container2 .grid-item5B h2 {
+  font-size: 1.4rem;
+}
+main .grid-container2 .grid-item5B p {
+  font-size: 1.1rem;
+}
+main .grid-container2 .grid-item7B h2 {
+  font-size: 1.4rem;
+}
+main .grid-container2 .grid-item7B p {
+  font-size: 1.1rem;
+}
+
+.events-main {
+  height: 78rem;
+}
+.events-main section div .description {
+  font-size: 1.1rem;
+}
+.events-main .center div .description {
+  font-size: 1.1rem;
+}
+
+main .grid-container3 {
+  grid-template-rows: 12% 52% 36%;
+  height: 24rem;
+  margin-bottom: 2rem;
+}
+main .grid-container3 .grid-item2C img {
+  height: 90%;
+}
+main .grid-container3 .grid-item3C h2 {
+  font-size: 1.4rem;
+}
+main .grid-container3 .grid-item3C p {
+  margin: 0px 0.7rem;
+  font-size: 1.1rem;
+}
+main .grid-container4 .grid-item1D h2 {
+  font-size: 1.7rem;
+}
+main .grid-container4 .dir {
+  font-size: 1.3rem;
+}
+main .grid-container4 .map {
+  font-size: 1rem;
+}
+
+footer .logo .logo-nav {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,201 @@
+@media only screen and (min-width:375px) and (max-width:424px) {
+    //HEADER
+    header{
+            .logo-nav {
+                @include log-nav(7.5rem,7.5rem);
+            }
+            nav{          
+                .list{
+                    li{
+                        a{
+                            font-size: 1.2rem;
+                        }
+                    }
+                } 
+            }
+        }
+
+    //INICIO
+    main{
+        .center{
+            //Tamaño imagen del equipo
+            .ocupa {
+                width: 92%;
+            }
+            p{
+                font-size: 1.15rem;
+            }
+        }
+        // Grids en el main
+        .grid-container1 {
+            height: 53rem;
+            grid-template-rows: 26% 34% 10% 48%;
+            //Grid item 1, subtitulo con lista
+            .grid-item1A {
+                h2{
+                    font-size: 1.9rem;
+                    margin-bottom: 1rem;
+                    margin-top: 1rem;
+                }
+                ul{
+                    li{
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+            .grid-item2A{
+                display: $flex;
+                align-items: $centrado;
+                .size-nena{
+                    height: 95%;
+                }
+            }
+            //Grid item 3, h2 
+            .grid-item3A {
+                display: $flex;
+                align-items: $centrado;
+            }
+            //Grid item 4, video de entrenamientos y preparacion fisica
+            .grid-item4A {
+                display: $flex;
+                align-items: $centrado;
+                .video1 {
+                    width: 100%;
+                    height: 95%;
+                }
+            } 
+        }
+        //Fin de los grids-items
+        //Ultimo bloque del inicio
+        .ult-bloque{
+            margin-top: 15rem;
+
+            div{               
+                ul{
+                    li{
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+            .div-video2 {
+                margin: 1rem $nulo;
+                .video2 {
+                    width: 70%;
+                }
+            }
+        }
+        .esperamos{
+            h2{
+                font-size: 2rem;
+            }
+        }
+    }    
+}
+
+//NOSOTROS
+main{
+    .grid-container2{
+        grid-template-rows: 2% 25% 7% 26% 6% 25% 7%;
+        height: 100rem;
+        gap: 1rem;
+        .grid-item1B{
+            display: inline;
+        }
+        .grid-item3B{
+            h2{
+                font-size: 1.4rem;
+            }
+            p{
+                font-size: 1.1rem;
+            }
+        }
+        .grid-item5B{
+            h2{
+                font-size: 1.4rem;
+            }
+            p{
+                font-size: 1.1rem;
+            }
+        }
+        .grid-item7B{
+            h2{
+                font-size: 1.4rem;
+            }
+            p{
+                font-size: 1.1rem;
+            }
+        }
+    }
+}
+
+//EVENTOS
+.events-main{
+    height: 78rem;
+    section{
+        div{
+            .description{
+                font-size: 1.1rem;
+            }
+        }
+    }
+     .center{
+        div{
+            .description{
+                font-size: 1.1rem;
+            }
+        }
+     }
+}
+
+//SEDES
+main{
+    //Primero, 1 columna 3 filas
+    .grid-container3 {
+        grid-template-rows: 12% 52% 36%;
+        height: 24rem;
+        margin-bottom: 2rem;
+        //Imagen
+        .grid-item2C {
+            img{
+                height: 90%;
+            }
+        }
+        //Subtitulo y parrafo
+        .grid-item3C{
+            h2{
+                font-size: 1.4rem;
+            }
+            p{
+                margin: $nulo 0.7rem;
+                font-size: 1.1rem;
+            }
+        }
+    }
+    //Segundo, 2 columnas con 5 filas
+    .grid-container4 {
+        //h2 
+        .grid-item1D {
+            h2{
+                font-size: 1.7rem;
+            }
+        }
+        .dir {
+            font-size: 1.3rem;
+        }
+        
+        .map {
+            font-size: 1rem;
+        }
+    }
+}
+
+//CONTACTO NO HAY CAMBIOS
+
+//FOOTER
+footer{
+    .logo{
+        .logo-nav{
+            @include log-nav(7.5rem,7.5rem);
+        }
+    }
+}
