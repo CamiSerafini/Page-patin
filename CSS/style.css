@@ -591,7 +591,7 @@ footer div .center .list li {
     width: 70%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
   header {
     display: flex;
     align-items: center;
@@ -688,6 +688,10 @@ footer div .center .list li {
     padding: 1.2rem;
     margin: 0px;
     font-size: 2.7rem;
+  }
+  main .grid-container1 .grid-item3A h2:hover {
+    color: rgb(222, 38, 222);
+    font-size: 3.1rem;
   }
   main .grid-container1 .grid-item4A {
     grid-row: 2/3;
@@ -918,16 +922,17 @@ footer div .center .list li {
   }
   footer .logo {
     width: 50%;
-    text-align: start;
   }
   footer .logo .logo-nav {
     width: 12rem;
     height: 12rem;
   }
   footer div .seguinos {
-    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
   }
   footer div .seguinos h3 {
+    font-size: 2.2rem;
     font-weight: bold;
   }
   footer div .seguinos .redes {
@@ -945,6 +950,240 @@ footer div .center .list li {
   }
   .fijo {
     width: 2.5rem;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  header nav .list li a {
+    font-size: 2.2rem;
+  }
+  header .logo .logo-nav {
+    width: 16rem;
+    height: 16rem;
+  }
+  main .center .title {
+    font-size: 4.5rem;
+  }
+  main .center .subt {
+    font-size: 3.5rem;
+  }
+  main .center .ocupa {
+    width: 95%;
+  }
+  main .center .description {
+    font-size: 1.8rem;
+  }
+  main .grid-container1 {
+    height: 70rem;
+  }
+  main .grid-container1 .grid-item1A h2 {
+    font-size: 3.1rem;
+    margin-top: 2.7rem;
+  }
+  main .grid-container1 .grid-item1A .list li {
+    font-size: 2rem;
+    margin-top: 1.4rem;
+  }
+  main .grid-container1 .grid-item3A h2 {
+    font-size: 3.2rem;
+  }
+  main .grid-container1 .grid-item4A .video1 {
+    margin-left: 2.5rem;
+  }
+  main .ult-bloque div {
+    margin-left: 3rem;
+  }
+  main .ult-bloque div .subt {
+    font-size: 3rem;
+  }
+  main .ult-bloque div .list {
+    font-size: 2rem;
+  }
+  main .ult-bloque .div-video2 {
+    margin: 0;
+  }
+  main .ult-bloque .div-video2 .video2 {
+    width: 90%;
+  }
+  main .esperamos .subt {
+    font-size: 3rem;
+  }
+  main .grid-container2 {
+    height: 130rem;
+  }
+  main .grid-container2 .grid-item1B .title {
+    margin-top: 0.5rem;
+    font-size: 4.5rem;
+  }
+  main .grid-container2 .grid-item2B img {
+    height: 100%;
+    width: 99%;
+  }
+  main .grid-container2 .grid-item3B h2 {
+    margin-top: 2.5rem;
+    font-size: 2.7rem;
+  }
+  main .grid-container2 .grid-item3B .description {
+    font-size: 2rem;
+  }
+  main .grid-container2 .grid-item4B img {
+    width: 98%;
+    height: 100%;
+  }
+  main .grid-container2 .grid-item5B {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+  main .grid-container2 .grid-item5B h2 {
+    font-size: 2.7rem;
+    margin-top: 4.5rem;
+  }
+  main .grid-container2 .grid-item5B .description {
+    font-size: 2rem;
+  }
+  main .grid-container2 .grid-item6B {
+    margin-top: 2.5rem;
+  }
+  main .grid-container2 .grid-item6B .img {
+    height: 100%;
+  }
+  main .grid-container2 .grid-item7B .description {
+    font-size: 1.9rem;
+  }
+  .events-main div .title {
+    font-size: 4.5rem;
+  }
+  .events-main section .subt {
+    font-size: 3.5rem;
+  }
+  .events-main .center .subt {
+    font-size: 3.7rem;
+  }
+  main .grid-container3 {
+    height: 55rem;
+    grid-template-rows: 8% 74% 18%;
+  }
+  main .grid-container3 .grid-item1C .title {
+    font-size: 4.5rem;
+  }
+  main .grid-container3 .grid-item2C {
+    height: 95%;
+    margin-top: 2rem;
+  }
+  main .grid-container3 .grid-item3C h2 {
+    font-size: 3rem;
+  }
+  main .grid-container3 .grid-item3C .description {
+    font-size: 1.9rem;
+  }
+  main .grid-container4 {
+    height: 50rem;
+  }
+  main .grid-container4 .grid-item1D .subt {
+    font-size: 2.8rem;
+  }
+  main .grid-container4 .grid-item2D .dir {
+    font-size: 2.5rem;
+  }
+  main .grid-container4 .grid-item3D img {
+    width: 22%;
+  }
+  main .grid-container4 .grid-item3D .map {
+    font-size: 1.8rem;
+  }
+  main .grid-container4 .grid-item4D .dir {
+    font-size: 2.5rem;
+  }
+  main .grid-container4 .grid-item5D img {
+    width: 22%;
+  }
+  main .grid-container4 .grid-item5D .map {
+    font-size: 1.8rem;
+  }
+  main .grid-container4 .grid-item6D .dir {
+    font-size: 2.5rem;
+  }
+  main .grid-container4 .grid-item7D img {
+    width: 22%;
+  }
+  main .grid-container4 .grid-item7D .map {
+    font-size: 1.8rem;
+  }
+  main .grid-container4 .grid-item8D .dir {
+    font-size: 2.5rem;
+  }
+  main .grid-container4 .grid-item9D img {
+    width: 22%;
+  }
+  main .grid-container4 .grid-item9D .map {
+    font-size: 1.8rem;
+  }
+  main .title {
+    font-size: 4.5rem;
+  }
+  main .description .text-center {
+    font-size: 2rem;
+  }
+  footer .logo .logo-nav {
+    width: 16rem;
+    height: 16rem;
+  }
+  footer div .seguinos h2 {
+    font-size: 2.5rem;
+  }
+  footer div .seguinos .redes {
+    width: 4rem;
+  }
+  footer div .center h3 {
+    font-size: 2.2rem;
+  }
+  footer div .center .list li {
+    font-size: 1.7rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  header nav .list li a {
+    font-size: 2.6rem;
+  }
+  header .logo .logo-nav {
+    width: 23rem;
+    height: 23rem;
+  }
+  main .grid-container1 {
+    width: 80%;
+    margin-left: 6.5rem;
+  }
+  main .grid-container1 .grid-item1A .list li:hover {
+    color: bisque;
+  }
+  main .grid-container1 .grid-item2A .size-nena {
+    width: 95%;
+    margin-left: 0.8rem;
+  }
+  main .ult-bloque div {
+    margin-left: 11rem;
+  }
+  main .ult-bloque .div-video2 .video2 {
+    width: 70%;
+    margin-left: 4rem;
+  }
+  main .esperamos .subt {
+    font-size: 3.5rem;
+  }
+  footer .logo .logo-nav {
+    width: 23rem;
+    height: 23rem;
+  }
+  footer div .seguinos h2 {
+    font-size: 3.1rem;
+  }
+  footer div .seguinos .redes {
+    width: 6rem;
+  }
+  footer div .center h3 {
+    font-size: 2.6rem;
+  }
+  footer div .center .list li {
+    font-size: 2.3rem;
   }
 }
 

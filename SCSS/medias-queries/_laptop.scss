@@ -1,0 +1,367 @@
+@media only screen and (min-width:1024px) and (max-width:1440px){
+    header{
+        nav{
+            .list{
+                li{
+                    a{
+                        font-size: 2.2rem;
+                    }
+                }
+            }
+        }
+        .logo{
+            .logo-nav{
+                width: 16rem;
+                height: 16rem;
+            }
+        }
+    }
+    //INICIO
+    main{
+        .center{
+            .title{
+                font-size: 4.5rem;
+            }
+            .subt{
+                font-size: 3.5rem;
+            }
+            .ocupa{
+                width: 95%;
+            }
+            .description{
+                font-size: 1.8rem;
+            }
+        }
+        //Grids en el main
+        .grid-container1{
+            height: 70rem;
+            .grid-item1A{
+                h2{
+                    font-size: 3.1rem;
+                    margin-top: 2.7rem;
+                }
+                .list{
+                    li{
+                        font-size: 2rem;
+                        margin-top: 1.4rem;
+                    }
+                }
+            }
+            .grid-item3A{
+                h2{
+                    font-size: 3.2rem;
+                }
+            }
+            .grid-item4A{
+                .video1{
+                    margin-left: 2.5rem;
+                }
+            }
+        }
+        .ult-bloque{
+            div{
+                margin-left: 3rem;
+                .subt{
+                    font-size: 3rem;
+                }
+                .list{
+                    font-size: 2rem;
+                }
+            }
+            .div-video2{
+                margin: 0;
+                .video2{
+                    width: 90%;
+                }
+            }
+        }
+        .esperamos{
+            .subt{
+                font-size: 3rem;
+            }
+        }
+    }
+    //NOSOTROS
+    main{
+        .grid-container2{
+            height: 130rem;
+            .grid-item1B{
+                .title{
+                    margin-top: 0.5rem;
+                    font-size: 4.5rem;
+                }
+            }
+            .grid-item2B{
+                img{
+                    height: 100%;
+                    width: 99%;
+                }
+            }
+            .grid-item3B{
+                h2{
+                    margin-top: 2.5rem;
+                    font-size: 2.7rem;
+                }
+                .description{
+                    font-size: 2rem;
+                }
+            }
+            .grid-item4B{
+                img{
+                    width: 98%;
+                    height: 100%;
+                }
+            }
+            .grid-item5B{
+                margin-top: 6rem;
+                margin-bottom: 6rem;
+                h2{
+                    font-size: 2.7rem;
+                    margin-top: 4.5rem;
+                }
+                .description{
+                    font-size: 2rem;
+                }
+            }
+            .grid-item6B{
+                margin-top: 2.5rem;
+                .img{
+                    height: 100%;
+                }
+            }
+            .grid-item7B{
+                .description{
+                    font-size: 1.9rem;
+                }
+            }
+        }
+    }
+    //EVENTOS
+    .events-main{
+        div{
+            .title{
+                font-size: 4.5rem;
+            }
+        }
+        section{
+            .subt{
+                font-size: 3.5rem;
+            }
+        }
+        .center{
+            .subt{
+                font-size: 3.7rem;
+            }
+        }
+    }
+    //SEDES
+    main{
+        .grid-container3{
+            height: 55rem;
+            grid-template-rows: 8% 74% 18%;
+            .grid-item1C{
+                .title{
+                    font-size: 4.5rem;
+                }
+            }
+            .grid-item2C{
+                height: 95%;
+                margin-top: 2rem;
+            }
+            .grid-item3C{
+                h2{
+                    font-size: 3rem;
+                }
+                .description{
+                    font-size: 1.9rem;
+                }
+            }
+        }
+        .grid-container4{
+            height: 50rem;
+            .grid-item1D{
+                .subt{
+                    font-size: 2.8rem;
+                }
+            }
+            .grid-item2D{
+                .dir{
+                    font-size: 2.5rem;
+                }
+            }
+            .grid-item3D{
+                img {
+                    width: 22%;
+                } 
+                .map{
+                    font-size: 1.8rem;
+                }
+            }
+            .grid-item4D{
+                .dir{
+                    font-size: 2.5rem;
+                } 
+            }
+            .grid-item5D{
+                img {
+                    width: 22%;
+                } 
+                .map{
+                    font-size: 1.8rem;
+                }
+            }
+            .grid-item6D{
+                .dir{
+                    font-size: 2.5rem;
+                } 
+            }
+            .grid-item7D{
+                img {
+                    width: 22%;
+                } 
+                .map{
+                    font-size: 1.8rem;
+                }
+            }
+            .grid-item8D{
+                .dir{
+                    font-size: 2.5rem;
+                } 
+            }
+            .grid-item9D{
+                img {
+                    width: 22%;
+                } 
+                .map{
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+    //CONTACTO
+    main{
+        .title{
+            font-size: 4.5rem;
+        }
+        .description{
+            .text-center{
+                font-size: 2rem;
+            }
+        }
+    }
+    //FOOTER
+    footer{
+        .logo{
+            .logo-nav{
+                width: 16rem;
+                height: 16rem;
+            }
+        }
+        div{
+            .seguinos{
+                h2{
+                    font-size: 2.5rem;
+                }
+                .redes{
+                    width: 4rem;
+                }
+            }
+            .center{
+                h3{
+                    font-size: 2.2rem;
+                }
+                .list{
+                    li{
+                        font-size: 1.7rem;
+                    }
+                }
+            }
+        }
+    }
+
+}
+@media only screen and (min-width:1440px){
+    header{
+        nav{
+            .list{
+                li{
+                    a{
+                        font-size: 2.6rem;
+                    }
+                }
+            }
+        }
+        .logo{
+            .logo-nav{
+                width: 23rem;
+                height: 23rem;
+            }
+        }
+    }
+    main{
+        .grid-container1{
+            width: 80%;
+            margin-left: 6.5rem;
+            .grid-item1A{
+                .list{
+                    li{
+                        &:hover{
+                            color: bisque;
+                        }
+                    }
+                }
+            }
+            .grid-item2A{
+                .size-nena{
+                    width: 95%;
+                    margin-left: 0.8rem;
+                }
+            }
+        }
+        .ult-bloque{
+            div{
+                margin-left: 11rem;
+            }
+            .div-video2{
+                .video2{
+                    width: 70%;
+                    margin-left: 4rem;
+                }
+            }
+        }
+        .esperamos{
+            .subt{
+                font-size: 3.5rem;
+            }
+        }
+    }
+    footer{
+        .logo{
+            .logo-nav{
+                width: 23rem;
+                height: 23rem;
+            }
+        }
+        div{
+            .seguinos{
+                h2{
+                    font-size: 3.1rem;
+                }
+                .redes{
+                    width: 6rem;
+                }
+            }
+            .center{
+                h3{
+                    font-size: 2.6rem;
+                }
+                .list{
+                    li{
+                        font-size: 2.3rem;
+                    }
+                }
+            }
+        }
+    }
+    
+}

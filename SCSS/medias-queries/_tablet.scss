@@ -1,4 +1,5 @@
-@media only screen and (min-width:768px) and (max-width:1023px){
+//Tambien para laptop y laptol L que en otra partial actualizo cambios de laptop
+@media only screen and (min-width:768px) and (max-width:1440px){
     //HEADER
     header{
         display: $flex;
@@ -95,6 +96,10 @@
                     padding: 1.2rem;
                     margin: $nulo;
                     font-size: 2.7rem;
+                    &:hover{
+                        color: rgb(222, 38, 222);
+                        font-size: 3.1rem;
+                    }
                 }
             }
             /* Grid item 4, video de entrenamientos y preparacion fisica */
@@ -170,6 +175,8 @@
             .grid-item3B {
                 grid-row: 2/3;
                 grid-column: 2/3;
+                margin-top: 5rem;
+                margin-bottom: 5rem;
                 @include tecn-rotando();
                 h2{
                     margin-top: 2.2rem;
@@ -193,6 +200,8 @@
             .grid-item5B {
                 grid-row: 3/4;
                 grid-column: 1/2;
+                margin-top: 5rem;
+                margin-bottom: 5rem;
                 @include tecn-rotando();
                 h2{
                     margin-top: 5rem;
@@ -375,7 +384,6 @@
         padding: $nulo 1.5rem;
         .logo{
             width: 50%;
-            text-align: start;
             .logo-nav {
                 width: 12rem;
                 height: 12rem;
@@ -383,8 +391,10 @@
         }
         div{
             .seguinos {
-                font-size: 1.5rem;
+                display: flex;
+                align-items: center;
                 h3{
+                    font-size: 2.2rem;
                     font-weight: bold;
                 }
                 .redes {
