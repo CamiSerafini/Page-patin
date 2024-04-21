@@ -754,7 +754,7 @@ footer div .center .list li {
   main .grid-container2 {
     grid-template-rows: 5% 28% 28% 31% 8%;
     grid-template-columns: 50% 50%;
-    padding: 0rem 0.5rem 0rem 0.5rem;
+    padding: 0px 0.5rem 0rem 0.5rem;
     width: 90%;
     height: 100rem;
     gap: 0.5rem;
@@ -880,7 +880,7 @@ footer div .center .list li {
   }
   main .grid-container3 .grid-item3C {
     display: block;
-    margin: 0rem 1rem;
+    margin: 0px 1rem;
   }
   main .grid-container3 .grid-item3C h2 {
     font-size: 1.8rem;
@@ -1177,8 +1177,8 @@ footer div .center .list li {
     font-size: 2.6rem;
   }
   header .logo .logo-nav {
-    width: 23rem;
-    height: 23rem;
+    width: 17rem;
+    height: 17rem;
   }
   main .grid-container1 {
     width: 80%;
@@ -1202,8 +1202,8 @@ footer div .center .list li {
     font-size: 3.5rem;
   }
   footer .logo .logo-nav {
-    width: 23rem;
-    height: 23rem;
+    width: 17rem;
+    height: 17rem;
   }
   footer div .seguinos h2 {
     font-size: 3.1rem;
@@ -1287,7 +1287,7 @@ footer div .center .list li {
     font-size: 2.3rem;
   }
   main .ult-bloque .div-video2 {
-    margin: 0;
+    margin: 0px;
     margin-left: 10rem;
   }
   main .ult-bloque .div-video2 .video2 {

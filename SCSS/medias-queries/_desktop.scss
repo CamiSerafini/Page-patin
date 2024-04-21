@@ -82,7 +82,7 @@
                 }
             }
             .div-video2{
-                margin: 0;
+                margin: $nulo;
                 margin-left: 10rem;
                 .video2{
                     width: 95%;
@@ -258,8 +258,7 @@
         margin-right: 7rem;
         .logo{
             .logo-nav{
-                width: 26rem;
-                height: 26rem;
+                @include log-nav(26rem,26rem);
             }
         }
         div{

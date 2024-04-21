@@ -11,8 +11,7 @@
         }
         .logo{
             .logo-nav{
-                width: 16rem;
-                height: 16rem;
+                @include log-nav(16rem,16rem);
             }
         }
     }
@@ -262,8 +261,7 @@
     footer{
         .logo{
             .logo-nav{
-                width: 16rem;
-                height: 16rem;
+                @include log-nav(16rem,16rem);
             }
         }
         div{
@@ -302,8 +300,7 @@
         }
         .logo{
             .logo-nav{
-                width: 23rem;
-                height: 23rem;
+                @include log-nav(17rem,17rem);
             }
         }
     }
@@ -347,8 +344,7 @@
     footer{
         .logo{
             .logo-nav{
-                width: 23rem;
-                height: 23rem;
+                @include log-nav(17rem,17rem);
             }
         }
         div{

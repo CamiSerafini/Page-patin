@@ -14,9 +14,9 @@ $flex: flex;
     text-align: $centrado;
 }
 
-@mixin log($ancho,$centrado){
+@mixin log($ancho,$centrar){
     width: $ancho;
-    text-align: $centrado;
+    text-align: $centrar;
 }
 
 @mixin log-nav($ancho,$alto){
