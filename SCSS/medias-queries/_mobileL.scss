@@ -1,0 +1,51 @@
+@media only screen and (min-width:425px) and (max-width:767px){
+//INICIO
+    main{
+        .center{
+            .title{
+                font-size: 2.3rem;
+            }
+            .subt{
+                font-size: 1.8rem;
+            }
+
+        }
+        // Grids en el main
+        .grid-container1 {
+            height: 63rem;
+            //Grid item 1, subtitulo con lista
+            .grid-item1A {
+                h2{
+                    margin-top: 1.5rem;
+                }
+                ul{
+                    li{
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+        //Fin de los grids-items
+        //Ultimo bloque del inicio
+        .ult-bloque{
+            margin-top: 16.5rem;
+
+            div{   
+                p{
+                    font-size: 1.8rem;
+                }            
+                ul{
+                    li{
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+            .div-video2 {
+                margin: 1rem $nulo;
+                .video2 {
+                    width: 70%;
+                }
+            }
+        }
+    }
+}
