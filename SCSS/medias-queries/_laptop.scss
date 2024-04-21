@@ -1,4 +1,4 @@
-@media only screen and (min-width:1024px) and (max-width:1440px){
+@media only screen and (min-width:1024px) and (max-width:2560px){
     header{
         nav{
             .list{
@@ -45,6 +45,15 @@
                         font-size: 2rem;
                         margin-top: 1.4rem;
                     }
+                }
+            }
+            .grid.item2A{
+                .size-nena{
+                    animation-name: foto-nena; 
+                    animation-iteration-count: infinite;
+                    animation-timing-function: linear;
+                    animation-duration: 5s;
+                    animation-delay: 0s;
                 }
             }
             .grid-item3A{
@@ -191,7 +200,7 @@
             }
             .grid-item3D{
                 img {
-                    width: 22%;
+                    width: 19%;
                 } 
                 .map{
                     font-size: 1.8rem;
@@ -204,7 +213,7 @@
             }
             .grid-item5D{
                 img {
-                    width: 22%;
+                    width: 19%;
                 } 
                 .map{
                     font-size: 1.8rem;
@@ -217,7 +226,7 @@
             }
             .grid-item7D{
                 img {
-                    width: 22%;
+                    width: 19%;
                 } 
                 .map{
                     font-size: 1.8rem;
@@ -230,7 +239,7 @@
             }
             .grid-item9D{
                 img {
-                    width: 22%;
+                    width: 19%;
                 } 
                 .map{
                     font-size: 1.8rem;
@@ -363,5 +372,7 @@
             }
         }
     }
-    
+    .fijo{
+        width: 3.5rem;
+    }
 }

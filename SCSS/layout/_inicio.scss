@@ -47,6 +47,11 @@ main{
                 height: 100%;
                 border-radius: 1rem;
                 border: 0.2rem solid white;
+                animation-name: foto-nena; 
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+                animation-duration: 5s;
+                animation-delay: 0s;
             }
         }
         //Grid item 3, h2 
@@ -58,6 +63,9 @@ main{
                 font-size: 2rem;
                 color: #641164fb;
                 font-family: $font;
+                background: rgb(228,186,203);
+                background: linear-gradient(90deg, rgba(228,186,203,1) 5%, rgba(215,128,167,1) 63%, rgba(210,83,210,1) 100%);
+                border-radius: 0.2rem;
             }
         }
         //Grid item 4, video de entrenamientos y preparacion fisica

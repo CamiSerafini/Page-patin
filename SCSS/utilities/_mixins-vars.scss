@@ -34,3 +34,27 @@ $flex: flex;
         transform: rotate(360deg);
     }
 }
+
+
+//ANIMACION
+@keyframes foto-nena{
+    
+    0%{
+        box-shadow: 8px 5px 39px 32px rgba(137,32,150,0.78);
+        -webkit-box-shadow: 8px 5px 39px 32px rgba(137,32,150,0.78);
+        -moz-box-shadow: 8px 5px 39px 32px rgba(137,32,150,0.78);
+    }
+
+    50%{
+        box-shadow: 8px 5px 39px 32px rgba(244,190,255,0.78);
+        -webkit-box-shadow: 8px 5px 39px 32px rgba(244,190,255,0.78);
+        -moz-box-shadow: 8px 5px 39px 32px rgba(244,190,255,0.78);
+    }
+
+    100%{
+        box-shadow: 8px 5px 39px 32px rgba(137,32,150,0.78);
+        -webkit-box-shadow: 8px 5px 39px 32px rgba(137,32,150,0.78);
+        -moz-box-shadow: 8px 5px 39px 32px rgba(137,32,150,0.78);
+    }
+
+}

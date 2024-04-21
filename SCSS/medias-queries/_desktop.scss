@@ -1,0 +1,290 @@
+@media only screen and (min-width:2560px){
+    header{
+        nav{
+            .list{
+                li{
+                    a{
+                        font-size: 2.9rem;
+                        margin-left: 1rem;
+                    }
+                }
+            }
+        }
+        .logo{
+            .logo-nav{
+                width: 26rem;
+                height: 26rem;
+            }
+        }
+    }
+    main{
+        .flechas{
+            width: 2%;
+        }
+        .center{
+            .title{
+                font-size: 5rem;
+            }
+            .subt{
+                font-size: 4rem;
+            }
+            .description{
+                font-size: 1.8rem;
+                margin-left: 4rem;
+            }
+        }
+        .grid-container1{
+            height: 80rem;
+            .grid-item1A{
+                margin-left: 11rem;
+                width: 70%;
+                h2{
+                    font-size: 3.5rem;
+                    margin-top: 3.3rem;
+                }
+                .list{
+                    li{
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+            .grid-item2A{
+                width: 70%;
+                margin-left:7rem;
+                .size-nena{
+                    animation-name: foto-nena; 
+                    animation-iteration-count: infinite;
+                    animation-timing-function: linear;
+                    animation-duration: 5s;
+                    animation-delay: 0s;
+                }
+            }
+            .grid-item3A{
+                margin-left: 1rem;
+                h2{
+                    font-size: 3.6rem;
+                }
+            }
+            .grid-item4A{
+                .video1{
+                    margin-left: 8rem;
+                }
+            }
+        }
+        .ult-bloque{
+            div{
+                margin-left: 35rem;
+                .subt{
+                    font-size: 3.5rem;
+                }
+                .list{
+                    font-size: 2.3rem;
+                }
+            }
+            .div-video2{
+                margin: 0;
+                margin-left: 10rem;
+                .video2{
+                    width: 95%;
+                }
+            }
+        }
+        .esperamos{
+            .subt{
+                margin-top: 2rem;
+                font-size: 4rem;
+            }
+        }
+    }
+    //NOSOTROS
+    main{
+        .grid-container2 {
+            grid-template-rows: 5% 28% 28% 35% 4%;
+            height: 160rem;
+            //Titulo
+            .grid-item1B {  
+                .title{
+                    font-size: 5rem;
+                }
+            }
+            //Imagen
+            .grid-item2B {
+                img{
+                    width: 70%;
+                    margin-left: 9rem;
+                }
+            }
+            //Parrafo
+            .grid-item3B {
+                margin: 7rem 5rem;
+                h2{
+                    margin-top: 6.2rem;
+                    font-size: 3.5rem;
+                }
+                .description{
+                    margin: 2rem 4rem;
+                    font-size: 2.35rem;
+                }
+            }
+            //Imagen
+            .grid-item4B {
+                img{
+                    width: 70%;
+                    margin-left: 9rem;
+                }
+            }
+            //Parrafo
+            .grid-item5B {
+                margin: 8rem 5rem;
+                h2{
+                    margin-top: 6.8rem;
+                    font-size: 3.5rem;
+                }
+                .description{
+                    margin: 2rem 4rem;
+                    font-size: 2.35rem;
+
+                }
+            }
+            //Imagen 
+            .grid-item6B {
+                margin-top: 2rem;
+                img{
+                    width: 45%;
+                    height: 100%;
+                }
+            }
+            //Parrafo
+            .grid-item7B {
+                .description{
+                    font-size: 2.4rem;
+                }
+            }   
+
+        }
+    }
+    //EVENTOS
+    .events-main{
+        section{
+            width: 70%;
+            margin-left: 25rem;
+        }
+        div{
+            .title{
+                font-size: 5rem;
+            }
+        }
+        section{
+            .subt{
+                font-size: 4rem;
+            }
+            div{
+                .description{
+                    font-size: 2.5rem;
+                }
+            }
+        }
+         .center{
+            div{
+                .description{
+                    font-size: 2.5rem;
+                }
+            }
+         }
+    }
+    //SEDES
+    main{
+        .grid-container3{
+            height: 65rem;
+            .grid-item1C{
+                .title{
+                    font-size: 5rem;
+                }
+            }
+            .grid-item2C{
+                width: 80%;
+                img{
+                    margin-left: 18rem;
+                }
+            }
+            .grid-item3C{
+                margin-left: 18rem;
+                h2{
+                    font-size: 3rem;
+                    text-align: start;
+                }
+                .description{
+                    font-size: 2.1rem;
+                }
+            }
+        }
+        .grid-container4{
+            width: 60%;
+            margin-left: 30rem;
+            height: 70rem;
+            .grid-item1D{
+                .subt{
+                    font-size: 3.3rem;
+                }
+            }
+            .grid-item3D{
+                margin-top: 1.6rem;
+                img {
+                    width: 12%;
+                } 
+            }
+            .grid-item5D{
+                margin-top: 1.6rem;
+                img {
+                    width: 12%;
+                } 
+            }
+            .grid-item7D{
+                margin-top: 1.6rem;
+                img {
+                    width: 12%;
+                } 
+            }
+            .grid-item9D{
+                margin-top: 1.6rem;
+                img {
+                    width: 12%;
+                } 
+            }
+        }
+    }
+    //FOOTER
+    footer{
+        margin-right: 7rem;
+        .logo{
+            .logo-nav{
+                width: 26rem;
+                height: 26rem;
+            }
+        }
+        div{
+            .seguinos{
+                h2{
+                    font-size: 3rem;
+                }
+                .redes{
+                    width: 5rem;
+                }
+            }
+            .center{
+                h3{
+                    font-size: 2.6rem;
+                }
+                .list{
+                    li{
+                        font-size: 2.3rem;
+                        margin: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+    .fijo{
+        width: 5rem;
+    }
+}

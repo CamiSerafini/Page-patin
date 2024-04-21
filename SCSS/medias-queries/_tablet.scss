@@ -1,5 +1,5 @@
-//Tambien para laptop y laptol L que en otra partial actualizo cambios de laptop
-@media only screen and (min-width:768px) and (max-width:1440px){
+//Tambien para laptop, laptol L y desktop que en otra partial actualizo cambios de laptop y en otra desktop
+@media only screen and (min-width:768px) and (max-width:2560px){
     //HEADER
     header{
         display: $flex;
@@ -96,10 +96,9 @@
                     padding: 1.2rem;
                     margin: $nulo;
                     font-size: 2.7rem;
-                    &:hover{
-                        color: rgb(222, 38, 222);
-                        font-size: 3.1rem;
-                    }
+                    background: rgb(228,186,203);
+                    background: linear-gradient(90deg, rgba(228,186,203,1) 5%, rgba(215,128,167,1) 63%, rgba(210,83,210,1) 100%);
+                    border-radius: 1rem;
                 }
             }
             /* Grid item 4, video de entrenamientos y preparacion fisica */
