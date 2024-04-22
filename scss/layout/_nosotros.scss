@@ -77,7 +77,14 @@ main{
         .grid-item7B {
             grid-row: 7/8;
             p{
+                background-color: #bb93bb;
                 margin: $nulo;
+                text-align: $centrado;
+                border-radius: 0.2rem;
+                transform: translateY(-30px);
+                box-shadow: 8px 5px 39px 0px rgba(70, 17, 77, 0.78);
+                -webkit-box-shadow: 8px 5px 39px 0px rgba(87, 23, 95, 0.78);
+                -moz-box-shadow: 8px 5px 39px 0px rgba(99, 22, 109, 0.78);
             }
         }
     }

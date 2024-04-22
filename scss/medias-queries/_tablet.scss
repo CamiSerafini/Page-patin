@@ -91,6 +91,11 @@
                 grid-column: 2/3;
                 display: $flex;
                 align-items: $centrado;
+                animation-name: cartel; 
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+                animation-duration: 3s;
+                animation-delay: 0s;
                 h2{
                     padding: 1.2rem;
                     margin: $nulo;
@@ -233,6 +238,8 @@
                     margin: 2rem;
                     font-size: 1.4rem;
                     color: rgba(137,32,150,0.78);
+                    transform: translateY(-50px);
+                    margin: $nulo 4rem;
                 }
             }   
 

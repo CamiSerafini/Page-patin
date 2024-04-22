@@ -358,6 +358,20 @@
             margin-left: 9rem;
         }
     }
+
+    //NOSOTROS
+    main{
+        .grid-container2{
+            .grid-item7B{
+                .description{
+                    transform: translateY(-15px);
+                    margin: $nulo 8.5rem;
+                    padding: 0.6rem $nulo;
+                }
+            }
+        }
+    }
+
     //SEDES
     main{
         .grid-container3{

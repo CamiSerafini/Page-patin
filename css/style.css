@@ -16,6 +16,23 @@
     -moz-box-shadow: 8px 5px 39px 32px rgba(137, 32, 150, 0.78);
   }
 }
+@keyframes cartel {
+  0% {
+    transform: rotate(20deg);
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-20deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(20deg);
+  }
+}
 * {
   margin: 0px;
 }
@@ -307,7 +324,14 @@ main .grid-container2 .grid-item7B {
   grid-row: 7/8;
 }
 main .grid-container2 .grid-item7B p {
+  background-color: #bb93bb;
   margin: 0px;
+  text-align: center;
+  border-radius: 0.2rem;
+  transform: translateY(-30px);
+  box-shadow: 8px 5px 39px 0px rgba(70, 17, 77, 0.78);
+  -webkit-box-shadow: 8px 5px 39px 0px rgba(87, 23, 95, 0.78);
+  -moz-box-shadow: 8px 5px 39px 0px rgba(99, 22, 109, 0.78);
 }
 
 main section div .eventos {
@@ -728,6 +752,11 @@ footer div .center .list li {
     grid-column: 2/3;
     display: flex;
     align-items: center;
+    animation-name: cartel;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-delay: 0s;
   }
   main .grid-container1 .grid-item3A h2 {
     padding: 1.2rem;
@@ -864,6 +893,8 @@ footer div .center .list li {
     margin: 2rem;
     font-size: 1.4rem;
     color: rgba(137, 32, 150, 0.78);
+    transform: translateY(-50px);
+    margin: 0px 4rem;
   }
   .events-main div .title {
     font-size: 3.12rem;
@@ -1236,6 +1267,11 @@ footer div .center .list li {
     width: 80%;
     margin-left: 9rem;
   }
+  main .grid-container2 .grid-item7B .description {
+    transform: translateY(-15px);
+    margin: 0px 8.5rem;
+    padding: 0.6rem 0px;
+  }
   main .grid-container3 .grid-item3C {
     margin: 0px 20rem;
     transform: translate(-195px, -90px);
@@ -1281,12 +1317,21 @@ footer div .center .list li {
   main .center .subt {
     font-size: 4.5rem;
   }
+  main .center .ocupa {
+    width: 75%;
+  }
   main .center .description {
-    font-size: 1.8rem;
-    margin-left: 4rem;
+    font-size: 2rem;
+    background-color: #bb93bb;
+    text-align: center;
+    margin: 0px 36rem;
+    border: 0.5rem dotted;
+    padding: 1rem 0px;
+    transform: translateY(-40px);
   }
   main .grid-container1 {
     height: 80rem;
+    margin-left: 15rem;
   }
   main .grid-container1 .grid-item1A {
     margin-left: 11rem;
@@ -1312,6 +1357,7 @@ footer div .center .list li {
   }
   main .grid-container1 .grid-item3A {
     margin-left: 1rem;
+    margin: 0px 11rem;
   }
   main .grid-container1 .grid-item3A h2 {
     font-size: 3.6rem;
@@ -1324,6 +1370,8 @@ footer div .center .list li {
   }
   main .ult-bloque div .subt {
     font-size: 3.5rem;
+    border: 0.3rem dotted;
+    padding: 0.5rem;
   }
   main .ult-bloque div .list {
     font-size: 2.3rem;
@@ -1338,6 +1386,8 @@ footer div .center .list li {
   main .esperamos .subt {
     margin-top: 2rem;
     font-size: 4rem;
+    border-top: 0.3rem dotted;
+    border-bottom: 0.3rem dotted;
   }
   main .grid-container2 {
     grid-template-rows: 5% 28% 28% 35% 4%;
@@ -1385,6 +1435,8 @@ footer div .center .list li {
   }
   main .grid-container2 .grid-item7B .description {
     font-size: 2.4rem;
+    margin: 0px 38rem;
+    transform: translateY(-15px);
   }
   .events-main section {
     margin-left: 14rem;

@@ -28,13 +28,22 @@
             .subt{
                 font-size: 4.5rem;
             }
+            .ocupa{
+                width: 75%;
+            }
             .description{
-                font-size: 1.8rem;
-                margin-left: 4rem;
+                font-size: 2rem;
+                background-color: #bb93bb;
+                text-align: $centrado;
+                margin: $nulo 36rem;
+                border: 0.5rem dotted;
+                padding: 1rem $nulo;
+                transform: translateY(-40px);
             }
         }
         .grid-container1{
             height: 80rem;
+            margin-left: 15rem;
             .grid-item1A{
                 margin-left: 11rem;
                 width: 70%;
@@ -59,8 +68,10 @@
                     animation-delay: 0s;
                 }
             }
+        
             .grid-item3A{
                 margin-left: 1rem;
+                margin: $nulo 11rem;
                 h2{
                     font-size: 3.6rem;
                 }
@@ -76,6 +87,8 @@
                 margin-left: 35rem;
                 .subt{
                     font-size: 3.5rem;
+                    border: 0.3rem dotted;
+                    padding: 0.5rem;
                 }
                 .list{
                     font-size: 2.3rem;
@@ -93,6 +106,8 @@
             .subt{
                 margin-top: 2rem;
                 font-size: 4rem;
+                border-top: 0.3rem dotted ;
+                border-bottom: 0.3rem dotted ;
             }
         }
     }
@@ -158,6 +173,8 @@
             .grid-item7B {
                 .description{
                     font-size: 2.4rem;
+                    margin: $nulo 38rem;
+                    transform: translateY(-15px);
                 }
             }   
 
