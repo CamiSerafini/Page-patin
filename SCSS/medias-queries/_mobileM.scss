@@ -150,24 +150,25 @@ main{
 //SEDES
 main{
     //Primero, 1 columna 3 filas
+
     .grid-container3 {
-        grid-template-rows: 12% 52% 36%;
-        height: 24rem;
-        margin-bottom: 2rem;
-        //Imagen
-        .grid-item2C {
-            img{
-                height: 90%;
+        grid-template-rows: 7% 59% 34%;
+        margin: $nulo $nulo 1.5rem 0.5rem;
+        //Titulo
+        .grid-item1C {
+            h1{
+                font-size: 1.8rem;
             }
         }
-        //Subtitulo y parrafo
+        //Parrafo
         .grid-item3C{
+            padding: $nulo 1rem 9.8rem 1rem;
             h2{
-                font-size: 1.4rem;
+                margin-top: 0.8rem;
+                font-size: 1.1rem;
             }
             p{
-                margin: $nulo 0.7rem;
-                font-size: 1.1rem;
+                font-size: 0.95rem;
             }
         }
     }

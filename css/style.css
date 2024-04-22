@@ -22,7 +22,7 @@
 
 .fijo {
   position: fixed;
-  right: 0.8rem;
+  right: 1.8rem;
   bottom: 0.8rem;
   width: 2rem;
 }
@@ -319,9 +319,9 @@ main section div .eventos {
 main .grid-container3 {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 15% 50% 35%;
-  margin: 0px 0.5rem 1.5rem 0.5rem;
-  height: 25rem;
+  grid-template-rows: 8% 50% 42%;
+  margin: 0px 0px 1.5rem 0.5rem;
+  height: 20rem;
   row-gap: 0.4rem;
 }
 main .grid-container3 .grid-item1C {
@@ -329,31 +329,42 @@ main .grid-container3 .grid-item1C {
 }
 main .grid-container3 .grid-item1C h1 {
   margin: 0px;
+  font-size: 1.7rem;
 }
 main .grid-container3 .grid-item2C {
   grid-row: 2/3;
   display: flex;
   align-items: center;
+  margin-top: 1rem;
 }
 main .grid-container3 .grid-item2C img {
   width: 96%;
-  height: 70%;
+  height: 98%;
   border: 0.4rem double rgb(187, 171, 171);
 }
 main .grid-container3 .grid-item3C {
+  background: rgb(228, 186, 203);
+  background: radial-gradient(circle, rgb(228, 186, 203) 5%, rgb(212, 146, 175) 59%, rgb(228, 188, 228) 100%);
   grid-row: 3/4;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding: 0px 1rem 11.3rem 1rem;
+  transform: translate(-35px, -65px);
+  border-radius: 2rem;
 }
 main .grid-container3 .grid-item3C h2 {
   text-align: center;
+  margin-top: 0.6rem;
   margin-bottom: 0.3rem;
   font-family: "Times New Roman", Times, serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bolder;
   color: #aa16ab;
   text-align: none;
 }
 main .grid-container3 .grid-item3C p {
   margin: 0px;
+  font-size: 0.9rem;
 }
 main .grid-container4 {
   display: grid;
@@ -557,19 +568,21 @@ footer div .center .list li {
     font-size: 1.1rem;
   }
   main .grid-container3 {
-    grid-template-rows: 12% 52% 36%;
-    height: 24rem;
-    margin-bottom: 2rem;
+    grid-template-rows: 7% 59% 34%;
+    margin: 0px 0px 1.5rem 0.5rem;
   }
-  main .grid-container3 .grid-item2C img {
-    height: 90%;
+  main .grid-container3 .grid-item1C h1 {
+    font-size: 1.8rem;
+  }
+  main .grid-container3 .grid-item3C {
+    padding: 0px 1rem 9.8rem 1rem;
   }
   main .grid-container3 .grid-item3C h2 {
-    font-size: 1.4rem;
+    margin-top: 0.8rem;
+    font-size: 1.1rem;
   }
   main .grid-container3 .grid-item3C p {
-    margin: 0px 0.7rem;
-    font-size: 1.1rem;
+    font-size: 0.95rem;
   }
   main .grid-container4 .grid-item1D h2 {
     font-size: 1.7rem;
@@ -618,6 +631,9 @@ footer div .center .list li {
   }
   .events-main {
     height: 84rem;
+  }
+  main .grid-container3 .grid-item3C {
+    padding-bottom: 9rem;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 2560px) {
@@ -883,7 +899,9 @@ footer div .center .list li {
   }
   main .grid-container3 .grid-item3C {
     display: block;
-    margin: 0px 1rem;
+    margin: 0px 7rem;
+    padding-bottom: 12rem;
+    transform: translate(-75px, -80px);
   }
   main .grid-container3 .grid-item3C h2 {
     font-size: 1.8rem;
@@ -989,10 +1007,10 @@ footer div .center .list li {
     height: 16rem;
   }
   main .center .title {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
   main .center .subt {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   main .center .ocupa {
     width: 95%;
@@ -1047,7 +1065,7 @@ footer div .center .list li {
   }
   main .grid-container2 .grid-item1B .title {
     margin-top: 0.5rem;
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
   main .grid-container2 .grid-item2B img {
     height: 100%;
@@ -1089,24 +1107,30 @@ footer div .center .list li {
     margin-left: 6rem;
   }
   .events-main section div .title {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
   .events-main section section .subt {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .events-main section .center .subt {
-    font-size: 3.7rem;
+    font-size: 3.3rem;
   }
   main .grid-container3 {
-    height: 55rem;
-    grid-template-rows: 8% 74% 18%;
+    height: 45rem;
+    grid-template-rows: 8% 55% 37%;
+    margin-bottom: 0.5rem;
   }
   main .grid-container3 .grid-item1C .title {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
   main .grid-container3 .grid-item2C {
     height: 95%;
     margin-top: 2rem;
+  }
+  main .grid-container3 .grid-item3C {
+    margin-left: 9rem;
+    margin-right: 9rem;
+    transform: translate(-75px, -80px);
   }
   main .grid-container3 .grid-item3C h2 {
     font-size: 3rem;
@@ -1157,7 +1181,7 @@ footer div .center .list li {
     font-size: 1.8rem;
   }
   main .title {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
   main .description .text-center {
     font-size: 2rem;
@@ -1212,6 +1236,13 @@ footer div .center .list li {
     width: 80%;
     margin-left: 9rem;
   }
+  main .grid-container3 .grid-item3C {
+    margin: 0px 20rem;
+    transform: translate(-195px, -90px);
+  }
+  main .grid-container3 .grid-item3C h2 {
+    margin-top: 1.4rem;
+  }
   footer .logo .logo-nav {
     width: 17rem;
     height: 17rem;
@@ -1245,10 +1276,10 @@ footer div .center .list li {
     width: 2%;
   }
   main .center .title {
-    font-size: 5rem;
+    font-size: 5.5rem;
   }
   main .center .subt {
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
   main .center .description {
     font-size: 1.8rem;
@@ -1313,7 +1344,7 @@ footer div .center .list li {
     height: 160rem;
   }
   main .grid-container2 .grid-item1B .title {
-    font-size: 5rem;
+    font-size: 5.5rem;
   }
   main .grid-container2 .grid-item2B img {
     width: 70%;
@@ -1359,10 +1390,10 @@ footer div .center .list li {
     margin-left: 14rem;
   }
   .events-main div .title {
-    font-size: 5rem;
+    font-size: 5.5rem;
   }
   .events-main section .subt {
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
   .events-main section div .description {
     font-size: 2.5rem;
@@ -1371,26 +1402,27 @@ footer div .center .list li {
     font-size: 2.5rem;
   }
   main .grid-container3 {
-    height: 65rem;
-  }
-  main .grid-container3 .grid-item1C .title {
-    font-size: 5rem;
+    height: 60rem;
+    grid-template-rows: 8% 70% 22%;
   }
   main .grid-container3 .grid-item2C {
     width: 80%;
   }
   main .grid-container3 .grid-item2C img {
-    margin-left: 18rem;
+    margin-left: 17rem;
+    height: 100%;
   }
   main .grid-container3 .grid-item3C {
-    margin-left: 18rem;
+    margin: 0px 25rem;
+    margin-right: 32rem;
   }
   main .grid-container3 .grid-item3C h2 {
-    font-size: 3rem;
-    text-align: start;
+    margin-top: 0.2rem;
+    font-size: 3.2rem;
+    text-align: center;
   }
   main .grid-container3 .grid-item3C .description {
-    font-size: 2.1rem;
+    font-size: 2.3rem;
   }
   main .grid-container4 {
     width: 60%;

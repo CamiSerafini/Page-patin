@@ -23,10 +23,10 @@
         }
         .center{
             .title{
-                font-size: 5rem;
+                font-size: 5.5rem;
             }
             .subt{
-                font-size: 4rem;
+                font-size: 4.5rem;
             }
             .description{
                 font-size: 1.8rem;
@@ -104,7 +104,7 @@
             //Titulo
             .grid-item1B {  
                 .title{
-                    font-size: 5rem;
+                    font-size: 5.5rem;
                 }
             }
             //Imagen
@@ -170,12 +170,12 @@
         }
         div{
             .title{
-                font-size: 5rem;
+                font-size: 5.5rem;
             }
         }
         section{
             .subt{
-                font-size: 4rem;
+                font-size: 4.5rem;
             }
             div{
                 .description{
@@ -194,26 +194,25 @@
     //SEDES
     main{
         .grid-container3{
-            height: 65rem;
-            .grid-item1C{
-                .title{
-                    font-size: 5rem;
-                }
-            }
+            height: 60rem;
+            grid-template-rows: 8% 70% 22%;
             .grid-item2C{
                 width: 80%;
                 img{
-                    margin-left: 18rem;
+                    margin-left: 17rem;
+                    height: 100%;
                 }
             }
             .grid-item3C{
-                margin-left: 18rem;
+                margin: $nulo 25rem;
+                margin-right: 32rem;
                 h2{
-                    font-size: 3rem;
-                    text-align: start;
+                    margin-top: 0.2rem;
+                    font-size: 3.2rem;
+                    text-align: $centrado;
                 }
                 .description{
-                    font-size: 2.1rem;
+                    font-size: 2.3rem;
                 }
             }
         }

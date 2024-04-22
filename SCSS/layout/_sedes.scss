@@ -4,15 +4,16 @@ main{
     .grid-container3 {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 15% 50% 35%;
-        margin: $nulo 0.5rem 1.5rem 0.5rem;
-        height: 25rem;
+        grid-template-rows: 8% 50% 42%;
+        margin: $nulo $nulo 1.5rem 0.5rem;
+        height: 20rem;
         row-gap: 0.4rem;
         //Titulo
         .grid-item1C {
             grid-row: 1/2;
             h1{
-                margin: $nulo
+                margin: $nulo;
+                font-size: 1.7rem;
             }
         }
         //Imagen
@@ -20,22 +21,32 @@ main{
             grid-row: 2/3;
             display: $flex;
             align-items: $centrado;
+            margin-top: 1rem;
             img{
                 width: 96%;
-                height: 70%;
+                height: 98%;
                 border: 0.4rem double rgb(187, 171, 171);
             }
         }
         //Parrafo
         .grid-item3C{
+            background: rgb(228,186,203);
+            background: radial-gradient(circle, rgba(228,186,203,1) 5%, rgba(212,146,175,1) 59%, rgba(228,188,228,1) 100%);
             grid-row: 3/4;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            padding: $nulo 1rem 11.3rem 1rem;
+            transform: translate(-35px,-65px);
+            border-radius: 2rem;
             h2{
                 text-align: $centrado;
+                margin-top: 0.6rem;
                 margin-bottom: 0.3rem;
-                @include tit-subt($font,1.2rem,bolder,#aa16ab,none);
+                @include tit-subt($font,1rem,bolder,#aa16ab,none);
             }
             p{
                 margin: $nulo;
+                font-size: 0.9rem;
             }
         }
     }
@@ -110,6 +121,4 @@ main{
             color: rgb(238, 149, 164);
         }
     }
-
-
 }
