@@ -6,7 +6,7 @@ $centrado: center;
 $nulo: 0px;
 $flex: flex;
 
-@mixin tit-subt($fuente,$tamaño,$negrita,$colour,$centrado){
+@mixin tit-subt($fuente, $tamaño, $negrita, $colour, $centrado) {
     font-family: $fuente;
     font-size: $tamaño;
     font-weight: $negrita;
@@ -14,70 +14,71 @@ $flex: flex;
     text-align: $centrado;
 }
 
-@mixin log($ancho,$centrar){
+@mixin log($ancho, $centrar) {
     width: $ancho;
     text-align: $centrar;
 }
 
-@mixin log-nav($ancho,$alto){
+@mixin log-nav($ancho, $alto) {
     width: $ancho;
     height: $alto;
 }
 
-@mixin tecn-rotando(){
+@mixin tecn-rotando() {
     //Gradiante radial
-    background: rgb(246,234,239);
-    background: radial-gradient(circle, rgba(246,234,239,1) 43%, rgba(255,224,238,1) 57%, rgba(242,184,210,1) 72%, rgba(100,17,100,1) 100%);    
+    background: rgb(246, 234, 239);
+    background: radial-gradient(circle, rgba(246, 234, 239, 1) 43%, rgba(255, 224, 238, 1) 57%, rgba(242, 184, 210, 1) 72%, rgba(100, 17, 100, 1) 100%);
     //Tranforms
     transition: 2s;
-    &:hover{
+
+    &:hover {
         transform: rotate(360deg);
     }
 }
 
 
 //ANIMACION
-@keyframes foto-nena{
-    
-    0%{
-        box-shadow: 8px 5px 39px 32px rgba(137,32,150,0.78);
-        -webkit-box-shadow: 8px 5px 39px 32px rgba(137,32,150,0.78);
-        -moz-box-shadow: 8px 5px 39px 32px rgba(137,32,150,0.78);
+@keyframes foto-nena {
+
+    0% {
+        box-shadow: 8px 5px 39px 32px rgba(137, 32, 150, 0.78);
+        -webkit-box-shadow: 8px 5px 39px 32px rgba(137, 32, 150, 0.78);
+        -moz-box-shadow: 8px 5px 39px 32px rgba(137, 32, 150, 0.78);
     }
 
-    50%{
-        box-shadow: 8px 5px 39px 32px rgba(244,190,255,0.78);
-        -webkit-box-shadow: 8px 5px 39px 32px rgba(244,190,255,0.78);
-        -moz-box-shadow: 8px 5px 39px 32px rgba(244,190,255,0.78);
+    50% {
+        box-shadow: 8px 5px 39px 32px rgba(244, 190, 255, 0.78);
+        -webkit-box-shadow: 8px 5px 39px 32px rgba(244, 190, 255, 0.78);
+        -moz-box-shadow: 8px 5px 39px 32px rgba(244, 190, 255, 0.78);
     }
 
-    100%{
-        box-shadow: 8px 5px 39px 32px rgba(137,32,150,0.78);
-        -webkit-box-shadow: 8px 5px 39px 32px rgba(137,32,150,0.78);
-        -moz-box-shadow: 8px 5px 39px 32px rgba(137,32,150,0.78);
+    100% {
+        box-shadow: 8px 5px 39px 32px rgba(137, 32, 150, 0.78);
+        -webkit-box-shadow: 8px 5px 39px 32px rgba(137, 32, 150, 0.78);
+        -moz-box-shadow: 8px 5px 39px 32px rgba(137, 32, 150, 0.78);
     }
 
 }
 
-@keyframes cartel{
+@keyframes cartel {
 
-    0%{
+    0% {
         transform: rotate(20deg);
     }
 
-    25%{
+    25% {
         transform: rotate(0deg);
     }
 
-    50%{
+    50% {
         transform: rotate(-20deg);
     }
 
-    75%{
+    75% {
         transform: rotate(0deg);
     }
 
-    100%{
+    100% {
         transform: rotate(20deg);
     }
 

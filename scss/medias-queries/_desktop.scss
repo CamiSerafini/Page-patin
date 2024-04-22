@@ -1,37 +1,43 @@
-@media only screen and (min-width:2560px){
-    header{
-        nav{
-            .list{
-                li{
-                    a{
+@media only screen and (min-width:2560px) {
+    header {
+        nav {
+            .list {
+                li {
+                    a {
                         font-size: 2.9rem;
                         margin-left: 1rem;
                     }
                 }
             }
         }
-        .logo{
-            .logo-nav{
+
+        .logo {
+            .logo-nav {
                 width: 26rem;
                 height: 26rem;
             }
         }
     }
-    main{
-        .flechas{
+
+    main {
+        .flechas {
             width: 2%;
         }
-        .center{
-            .title{
+
+        .center {
+            .title {
                 font-size: 5.5rem;
             }
-            .subt{
+
+            .subt {
                 font-size: 4.5rem;
             }
-            .ocupa{
+
+            .ocupa {
                 width: 75%;
             }
-            .description{
+
+            .description {
                 font-size: 2rem;
                 background-color: #bb93bb;
                 text-align: $centrado;
@@ -41,256 +47,310 @@
                 transform: translateY(-40px);
             }
         }
-        .grid-container1{
+
+        .grid-container1 {
             height: 80rem;
             margin-left: 15rem;
-            .grid-item1A{
+
+            .grid-item1A {
                 margin-left: 11rem;
                 width: 70%;
-                h2{
+
+                h2 {
                     font-size: 3.5rem;
                     margin-top: 3.3rem;
                 }
-                .list{
-                    li{
+
+                .list {
+                    li {
                         font-size: 2.5rem;
                     }
                 }
             }
-            .grid-item2A{
+
+            .grid-item2A {
                 width: 70%;
-                margin-left:7rem;
-                .size-nena{
-                    animation-name: foto-nena; 
+                margin-left: 7rem;
+
+                .size-nena {
+                    animation-name: foto-nena;
                     animation-iteration-count: infinite;
                     animation-timing-function: linear;
                     animation-duration: 5s;
                     animation-delay: 0s;
                 }
             }
-        
-            .grid-item3A{
+
+            .grid-item3A {
                 margin-left: 1rem;
                 margin: $nulo 11rem;
-                h2{
+
+                h2 {
                     font-size: 3.6rem;
                 }
             }
-            .grid-item4A{
-                .video1{
+
+            .grid-item4A {
+                .video1 {
                     margin-left: 8rem;
                 }
             }
         }
-        .ult-bloque{
-            div{
+
+        .ult-bloque {
+            div {
                 margin-left: 35rem;
-                .subt{
+
+                .subt {
                     font-size: 3.5rem;
                     border: 0.3rem dotted;
                     padding: 0.5rem;
                 }
-                .list{
+
+                .list {
                     font-size: 2.3rem;
                 }
             }
-            .div-video2{
+
+            .div-video2 {
                 margin: $nulo;
                 margin-left: 10rem;
-                .video2{
+
+                .video2 {
                     width: 95%;
                 }
             }
         }
-        .esperamos{
-            .subt{
+
+        .esperamos {
+            .subt {
                 margin-top: 2rem;
                 font-size: 4rem;
-                border-top: 0.3rem dotted ;
-                border-bottom: 0.3rem dotted ;
+                border-top: 0.3rem dotted;
+                border-bottom: 0.3rem dotted;
             }
         }
     }
+
     //NOSOTROS
-    main{
+    main {
         .grid-container2 {
             grid-template-rows: 5% 28% 28% 35% 4%;
             height: 160rem;
+
             //Titulo
-            .grid-item1B {  
-                .title{
+            .grid-item1B {
+                .title {
                     font-size: 5.5rem;
                 }
             }
+
             //Imagen
             .grid-item2B {
-                img{
+                img {
                     width: 70%;
                     margin-left: 9rem;
                 }
             }
+
             //Parrafo
             .grid-item3B {
                 margin: 7rem 5rem;
-                h2{
+
+                h2 {
                     margin-top: 6.2rem;
                     font-size: 3.5rem;
                 }
-                .description{
+
+                .description {
                     margin: 2rem 4rem;
                     font-size: 2.35rem;
                 }
             }
+
             //Imagen
             .grid-item4B {
-                img{
+                img {
                     width: 70%;
                     margin-left: 9rem;
                 }
             }
+
             //Parrafo
             .grid-item5B {
                 margin: 8rem 5rem;
-                h2{
+
+                h2 {
                     margin-top: 6.8rem;
                     font-size: 3.5rem;
                 }
-                .description{
+
+                .description {
                     margin: 2rem 4rem;
                     font-size: 2.35rem;
 
                 }
             }
+
             //Imagen 
             .grid-item6B {
                 margin-top: 2rem;
-                img{
+
+                img {
                     width: 45%;
                     height: 100%;
                 }
             }
+
             //Parrafo
             .grid-item7B {
-                .description{
+                .description {
                     font-size: 2.4rem;
                     margin: $nulo 38rem;
                     transform: translateY(-15px);
                 }
-            }   
+            }
 
         }
     }
+
     //EVENTOS
-    .events-main{
-        section{
+    .events-main {
+        section {
             margin-left: 14rem;
         }
-        div{
-            .title{
+
+        div {
+            .title {
                 font-size: 5.5rem;
             }
         }
-        section{
-            .subt{
+
+        section {
+            .subt {
                 font-size: 4.5rem;
             }
-            div{
-                .description{
+
+            div {
+                .description {
                     font-size: 2.5rem;
                 }
             }
         }
-         .center{
-            div{
-                .description{
+
+        .center {
+            div {
+                .description {
                     font-size: 2.5rem;
                 }
             }
-         }
+        }
     }
+
     //SEDES
-    main{
-        .grid-container3{
+    main {
+        .grid-container3 {
             height: 60rem;
             grid-template-rows: 8% 70% 22%;
-            .grid-item2C{
+
+            .grid-item2C {
                 width: 80%;
-                img{
+
+                img {
                     margin-left: 17rem;
                     height: 100%;
                 }
             }
-            .grid-item3C{
+
+            .grid-item3C {
                 margin: $nulo 25rem;
                 margin-right: 32rem;
-                h2{
+
+                h2 {
                     margin-top: 0.2rem;
                     font-size: 3.2rem;
                     text-align: $centrado;
                 }
-                .description{
+
+                .description {
                     font-size: 2.3rem;
                 }
             }
         }
-        .grid-container4{
+
+        .grid-container4 {
             width: 60%;
             margin-left: 30rem;
             height: 70rem;
-            .grid-item1D{
-                .subt{
+
+            .grid-item1D {
+                .subt {
                     font-size: 3.3rem;
                 }
             }
-            .grid-item3D{
+
+            .grid-item3D {
                 margin-top: 1.6rem;
+
                 img {
                     width: 12%;
-                } 
+                }
             }
-            .grid-item5D{
+
+            .grid-item5D {
                 margin-top: 1.6rem;
+
                 img {
                     width: 12%;
-                } 
+                }
             }
-            .grid-item7D{
+
+            .grid-item7D {
                 margin-top: 1.6rem;
+
                 img {
                     width: 12%;
-                } 
+                }
             }
-            .grid-item9D{
+
+            .grid-item9D {
                 margin-top: 1.6rem;
+
                 img {
                     width: 12%;
-                } 
+                }
             }
         }
     }
+
     //FOOTER
-    footer{
+    footer {
         margin-right: 7rem;
-        .logo{
-            .logo-nav{
-                @include log-nav(26rem,26rem);
+
+        .logo {
+            .logo-nav {
+                @include log-nav(26rem, 26rem);
             }
         }
-        div{
-            .seguinos{
-                h2{
+
+        div {
+            .seguinos {
+                h2 {
                     font-size: 3rem;
                 }
-                .redes{
+
+                .redes {
                     width: 5rem;
                 }
             }
-            .center{
-                h3{
+
+            .center {
+                h3 {
                     font-size: 2.6rem;
                 }
-                .list{
-                    li{
+
+                .list {
+                    li {
                         font-size: 2.3rem;
                         margin: 1.3rem;
                     }
@@ -298,7 +358,8 @@
             }
         }
     }
-    .fijo{
+
+    .fijo {
         width: 5rem;
     }
 }

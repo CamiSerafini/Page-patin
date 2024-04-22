@@ -1,54 +1,68 @@
 //Tambien para laptop, laptol L y desktop que en otra partial actualizo cambios de laptop y en otra desktop
-@media only screen and (min-width:768px) and (max-width:2560px){
+@media only screen and (min-width:768px) and (max-width:2560px) {
+
     //HEADER
-    header{
+    header {
         display: $flex;
         align-items: $centrado;
         justify-content: space-around;
-        nav{
+
+        nav {
             margin-right: 1rem;
-            .list{                       
+
+            .list {
                 list-style-type: none;
                 display: $flex;
+
                 .li1 {
                     margin-top: 0.8rem;
                 }
-                li{
+
+                li {
                     margin: 0.8rem;
-                    a{
+
+                    a {
                         font-size: 1.55rem;
-                        &:hover{
+
+                        &:hover {
                             font-size: 1.65rem;
                         }
                     }
                 }
             }
         }
-        .logo{
+
+        .logo {
             width: 20%;
             text-align: start;
+
             .logo-nav {
-                @include log-nav(12rem,12rem);
+                @include log-nav(12rem, 12rem);
             }
         }
     }
+
     //INICIO
-    main{
+    main {
         .flechas {
             width: 5%;
         }
-        .center{
-            .title{
+
+        .center {
+            .title {
                 font-size: 3.12rem;
             }
-            .subt{
+
+            .subt {
                 font-size: 2.3rem;
             }
+
             .description {
                 font-size: 1.4rem;
                 margin: 1rem 3rem;
             }
         }
+
         /* Grids en el main*/
         .grid-container1 {
             grid-template-columns: 50% 50%;
@@ -57,21 +71,25 @@
             padding: 2.3rem;
             height: 60rem;
             width: 90%;
+
             /* Grid item 1, subtitulo con lista */
             .grid-item1A {
                 grid-column: 1/2;
+
                 /* Acomodo del subtitulo del grid item 1*/
-                h2{
+                h2 {
                     font-size: 2.5rem;
                     margin-top: 1.2rem;
                 }
-                .list{
-                    li{
+
+                .list {
+                    li {
                         margin-top: 1.3rem;
-                        font-size: 1.55rem;    
+                        font-size: 1.55rem;
                     }
                 }
             }
+
             /* Grid item 2, imagen */
             .grid-item2A {
                 grid-row: 1/2;
@@ -79,32 +97,36 @@
                 text-align: $centrado;
                 width: 97%;
                 height: 95%;
+
                 .size-nena {
                     margin-top: 0.5rem;
                     width: 100%;
                     height: 100%;
                 }
             }
+
             /* Grid item 3, Entrenamientos y preparacion fisica */
             .grid-item3A {
                 grid-row: 2/3;
                 grid-column: 2/3;
                 display: $flex;
                 align-items: $centrado;
-                animation-name: cartel; 
+                animation-name: cartel;
                 animation-iteration-count: infinite;
                 animation-timing-function: linear;
                 animation-duration: 3s;
                 animation-delay: 0s;
-                h2{
+
+                h2 {
                     padding: 1.2rem;
                     margin: $nulo;
                     font-size: 2.7rem;
-                    background: rgb(228,186,203);
-                    background: linear-gradient(90deg, rgba(228,186,203,1) 5%, rgba(215,128,167,1) 63%, rgba(210,83,210,1) 100%);
+                    background: rgb(228, 186, 203);
+                    background: linear-gradient(90deg, rgba(228, 186, 203, 1) 5%, rgba(215, 128, 167, 1) 63%, rgba(210, 83, 210, 1) 100%);
                     border-radius: 1rem;
                 }
             }
+
             /* Grid item 4, video de entrenamientos y preparacion fisica */
             .grid-item4A {
                 grid-row: 2/3;
@@ -112,42 +134,51 @@
                 width: 92%;
                 display: $flex;
                 align-items: $centrado;
-                .video1{
+
+                .video1 {
                     width: 100%;
                     border-radius: 2rem;
                     margin-left: 1.2rem;
                 }
             }
         }
+
         /* Fin de los grids */
         /* Ultimo bloque, p, ul y video */
         .ult-bloque {
             margin: 2rem 1rem 1.5rem 1rem;
             display: $flex;
             align-items: $centrado;
+
             .video2 {
                 width: 100%;
                 height: 85%;
             }
-            div{
+
+            div {
                 margin-left: 3rem;
-                .subt{
+
+                .subt {
                     font-size: 2rem;
                 }
-                .list{
+
+                .list {
                     font-size: 1.5rem;
                 }
             }
 
         }
-        .esperamos{
-            .subt{
+
+        .esperamos {
+            .subt {
                 font-size: 2.7rem;
             }
-        } 
+        }
     }
+
     //NOSOTROS
-    main{
+    main {
+
         //Grids en el main
         .grid-container2 {
             grid-template-rows: 5% 28% 28% 31% 8%;
@@ -156,24 +187,29 @@
             width: 90%;
             height: 100rem;
             gap: 0.5rem;
+
             //Titulo
             .grid-item1B {
                 grid-column: 1/3;
-                margin-top: 0.8rem;  
-                display: block;     
-                .title{
+                margin-top: 0.8rem;
+                display: block;
+
+                .title {
                     font-size: 3.12rem;
                     text-align: $centrado;
                 }
             }
+
             //Imagen
             .grid-item2B {
                 grid-column: 1/2;
-                img{
+
+                img {
                     width: 97%;
                     height: 95%;
                 }
             }
+
             //Parrafo
             .grid-item3B {
                 grid-row: 2/3;
@@ -181,24 +217,29 @@
                 margin-top: 5rem;
                 margin-bottom: 5rem;
                 @include tecn-rotando();
-                h2{
+
+                h2 {
                     margin-top: 2.2rem;
                     font-size: 1.8rem;
                 }
-                .description{
+
+                .description {
                     margin: 1rem;
                     font-size: 1.35rem;
                 }
             }
+
             //Imagen
             .grid-item4B {
                 grid-row: 3/4;
                 grid-column: 2/3;
-                img{
+
+                img {
                     width: 95%;
                     height: 95%;
                 }
             }
+
             //Parrafo
             .grid-item5B {
                 grid-row: 3/4;
@@ -206,14 +247,17 @@
                 margin-top: 5rem;
                 margin-bottom: 5rem;
                 @include tecn-rotando();
-                h2{
+
+                h2 {
                     margin-top: 5rem;
                     font-size: 1.8rem;
                 }
-                .description{
+
+                .description {
                     margin: 1rem;
                 }
             }
+
             //Imagen 
             .grid-item6B {
                 grid-row: 4/5;
@@ -221,207 +265,248 @@
                 display: block;
                 text-align: $centrado;
                 margin-top: 1rem;
-                img{
-                    box-shadow: 8px 5px 39px 0px rgba(137,32,150,0.78);
-                    -webkit-box-shadow: 8px 5px 39px 0px rgba(137,32,150,0.78);
-                    -moz-box-shadow: 8px 5px 39px 0px rgba(137,32,150,0.78);
+
+                img {
+                    box-shadow: 8px 5px 39px 0px rgba(137, 32, 150, 0.78);
+                    -webkit-box-shadow: 8px 5px 39px 0px rgba(137, 32, 150, 0.78);
+                    -moz-box-shadow: 8px 5px 39px 0px rgba(137, 32, 150, 0.78);
                     width: 75%;
                     height: 98%;
                 }
             }
+
             //Parrafo
             .grid-item7B {
                 grid-row: 5/6;
                 grid-column: 1/3;
-                .description{
+
+                .description {
                     text-align: $centrado;
                     margin: 2rem;
                     font-size: 1.4rem;
-                    color: rgba(137,32,150,0.78);
+                    color: rgba(137, 32, 150, 0.78);
                     transform: translateY(-50px);
                     margin: $nulo 4rem;
                 }
-            }   
+            }
 
         }
     }
+
     //EVENTOS
-    .events-main{
-        div{
-            .title{
+    .events-main {
+        div {
+            .title {
                 font-size: 3.12rem;
             }
         }
-        section{
-            .subt{
+
+        section {
+            .subt {
                 font-size: 2.3rem;
             }
-            div{
-                .description{
+
+            div {
+                .description {
                     font-size: 2rem;
                 }
             }
         }
-         .center{
-            div{
-                .description{
+
+        .center {
+            div {
+                .description {
                     font-size: 2rem;
                 }
             }
-         }
+        }
     }
+
     //SEDES
-    main{
+    main {
         .grid-container3 {
             grid-template-rows: 8% 78% 14%;
             margin: 0rem 0.5rem 4.5rem 0.5rem;
             height: 45rem;
             row-gap: 1rem;
+
             //Titulo
             .grid-item1C {
                 display: block;
-                .title{
+
+                .title {
                     font-size: 3.12rem;
                 }
             }
+
             //Imagen
             .grid-item2C {
                 display: block;
                 text-align: $centrado;
-                img{
+
+                img {
                     height: 100%;
                     height: 95%;
                 }
             }
+
             //Parrafo
             .grid-item3C {
                 display: block;
                 margin: $nulo 7rem;
-                padding-bottom:12rem;
-                transform: translate(-75px,-80px);
-                h2{
+                padding-bottom: 12rem;
+                transform: translate(-75px, -80px);
+
+                h2 {
                     font-size: 1.8rem;
                 }
-                .description{
+
+                .description {
                     font-size: 1.5rem;
                 }
             }
         }
+
         //Grids con los mapas
         .grid-container4 {
             grid-template-rows: 8% 23% 23% 23% 23%;
             margin: 0rem;
             margin-bottom: 4rem;
             gap: 0.7rem;
-            .grid-item1D{
-                .subt{
+
+            .grid-item1D {
+                .subt {
                     font-size: 2.3rem;
                 }
             }
-            .grid-item2D{
-                .dir{
+
+            .grid-item2D {
+                .dir {
                     font-size: 1.8rem;
                 }
             }
-            .grid-item3D{
+
+            .grid-item3D {
                 img {
                     width: 17%;
-                } 
-                .map{
+                }
+
+                .map {
                     font-size: 1.3rem;
                 }
             }
-            .grid-item4D{
-                .dir{
+
+            .grid-item4D {
+                .dir {
                     font-size: 1.8rem;
                 }
             }
-            .grid-item5D{
-                img{
+
+            .grid-item5D {
+                img {
                     width: 17%;
                 }
-                .map{
+
+                .map {
                     font-size: 1.3rem;
                 }
             }
-            .grid-item6D{
-                .dir{
+
+            .grid-item6D {
+                .dir {
                     font-size: 1.8rem;
                 }
             }
-            .grid-item7D{
-                img{
+
+            .grid-item7D {
+                img {
                     width: 17%;
                 }
-                .map{
+
+                .map {
                     font-size: 1.3rem;
                 }
             }
-            .grid-item8D{
-                .dir{
+
+            .grid-item8D {
+                .dir {
                     font-size: 1.8rem;
                 }
             }
-            .grid-item9D{
-                img{
+
+            .grid-item9D {
+                img {
                     width: 17%;
                 }
-                .map{
+
+                .map {
                     font-size: 1.3rem;
                 }
             }
         }
     }
+
     //CONTACTO
-    main{
-        .title{
+    main {
+        .title {
             font-size: 3.12rem;
         }
-        .description{
-            .text-center{
+
+        .description {
+            .text-center {
                 font-size: 1.5rem;
             }
         }
     }
+
     //FOOTER
     footer {
         display: $flex;
         align-items: $centrado;
         justify-content: space-around;
         padding: $nulo 1.5rem;
-        .logo{
+
+        .logo {
             width: 50%;
+
             .logo-nav {
-                @include log-nav(12rem,12rem);
+                @include log-nav(12rem, 12rem);
             }
         }
-        div{
+
+        div {
             .seguinos {
                 display: $flex;
                 align-items: $centrado;
-                h3{
+
+                h3 {
                     font-size: 2.2rem;
                     font-weight: bold;
                 }
+
                 .redes {
                     width: 3.5rem;
                 }
             }
-            .center{
-                h3{
+
+            .center {
+                h3 {
                     font-size: 1.3rem;
                     font-weight: bold;
                 }
-                .list{
+
+                .list {
                     display: $flex;
-                    li{
+
+                    li {
                         font-size: 1.2rem;
                     }
                 }
             }
         }
     }
-    .fijo{
+
+    .fijo {
         width: 2.5rem;
     }
 

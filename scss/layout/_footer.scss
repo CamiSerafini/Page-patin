@@ -4,20 +4,20 @@ footer {
     font-family: $font;
     border-top: 0.15rem solid #f1b9f1;
 
-    .logo{
-        @include log(100%,$centrado);
+    .logo {
+        @include log(100%, $centrado);
 
         .logo-nav {
-            @include log-nav(7rem,7rem);
+            @include log-nav(7rem, 7rem);
         }
     }
 
-   
 
-    div{
+
+    div {
         .seguinos {
 
-            h2{
+            h2 {
                 font-weight: bold !important;
             }
 
@@ -25,15 +25,15 @@ footer {
             align-items: $centrado;
             justify-content: $centrado;
 
-            .redes{
+            .redes {
                 width: 2.5rem;
                 margin-left: 0.5rem;
             }
         }
 
-        .center{
-            .list{
-                li{
+        .center {
+            .list {
+                li {
                     margin: 0.6rem;
                 }
             }

@@ -1,204 +1,236 @@
 //Mayoria de cambios en mobile M seran parecidos a mobile L, pero aparte en mobile L hago algunos cambios mas
 @media only screen and (min-width:375px) and (max-width:767px) {
+
     //HEADER
-    header{
-            .logo-nav {
-                @include log-nav(7.5rem,7.5rem);
-            }
-            nav{          
-                .list{
-                    li{
-                        a{
-                            font-size: 1.2rem;
-                        }
-                    }
-                } 
-            }
+    header {
+        .logo-nav {
+            @include log-nav(7.5rem, 7.5rem);
         }
 
-    //INICIO
-    main{
-        .center{
-            //Tamaño imagen del equipo
-            .ocupa {
-                width: 92%;
-            }
-            p{
-                font-size: 1.15rem;
-            }
-        }
-        // Grids en el main
-        .grid-container1 {
-            height: 53rem;
-            grid-template-rows: 26% 34% 10% 48%;
-            //Grid item 1, subtitulo con lista
-            .grid-item1A {
-                h2{
-                    font-size: 1.9rem;
-                    margin-bottom: 1rem;
-                    margin-top: 1rem;
-                }
-                ul{
-                    li{
+        nav {
+            .list {
+                li {
+                    a {
                         font-size: 1.2rem;
                     }
                 }
             }
-            .grid-item2A{
-                display: $flex;
-                align-items: $centrado;
-                .size-nena{
-                    height: 95%;
-                    animation-name: foto-nena; 
+        }
+    }
+
+    //INICIO
+    main {
+        .center {
+
+            //Tamaño imagen del equipo
+            .ocupa {
+                width: 92%;
+            }
+
+            p {
+                font-size: 1.15rem;
+            }
+        }
+
+        // Grids en el main
+        .grid-container1 {
+            height: 53rem;
+            grid-template-rows: 26% 34% 10% 48%;
+
+            //Grid item 1, subtitulo con lista
+            .grid-item1A {
+                h2 {
+                    font-size: 1.9rem;
+                    margin-bottom: 1rem;
+                    margin-top: 1rem;
+                }
+
+                ul {
+                    li {
+                        font-size: 1.2rem;
+                    }
                 }
             }
+
+            .grid-item2A {
+                display: $flex;
+                align-items: $centrado;
+
+                .size-nena {
+                    height: 95%;
+                    animation-name: foto-nena;
+                }
+            }
+
             //Grid item 3, h2 
             .grid-item3A {
                 display: $flex;
                 align-items: $centrado;
             }
+
             //Grid item 4, video de entrenamientos y preparacion fisica
             .grid-item4A {
                 display: $flex;
                 align-items: $centrado;
+
                 .video1 {
                     width: 100%;
                     height: 95%;
                 }
-            } 
+            }
         }
+
         //Fin de los grids-items
         //Ultimo bloque del inicio
-        .ult-bloque{
+        .ult-bloque {
             margin-top: 15rem;
 
-            div{               
-                ul{
-                    li{
+            div {
+                ul {
+                    li {
                         font-size: 1.1rem;
                     }
                 }
             }
+
             .div-video2 {
                 margin: 1rem $nulo;
+
                 .video2 {
                     width: 70%;
                 }
             }
         }
-        .esperamos{
-            h2{
+
+        .esperamos {
+            h2 {
                 font-size: 2rem;
             }
         }
-    }    
+    }
+
     //NOSOTROS
-main{
-    .grid-container2{
-        grid-template-rows: 2% 25% 7% 26% 6% 25% 7%;
-        height: 100rem;
-        gap: 1rem;
-        .grid-item1B{
-            display: inline;
+    main {
+        .grid-container2 {
+            grid-template-rows: 2% 25% 7% 26% 6% 25% 7%;
+            height: 100rem;
+            gap: 1rem;
+
+            .grid-item1B {
+                display: inline;
+            }
+
+            .grid-item3B {
+                h2 {
+                    font-size: 1.4rem;
+                }
+
+                p {
+                    font-size: 1.1rem;
+                }
+            }
+
+            .grid-item5B {
+                h2 {
+                    font-size: 1.4rem;
+                }
+
+                p {
+                    font-size: 1.1rem;
+                }
+            }
+
+            .grid-item7B {
+                h2 {
+                    font-size: 1.4rem;
+                }
+
+                p {
+                    font-size: 1.1rem;
+                }
+            }
         }
-        .grid-item3B{
-            h2{
-                font-size: 1.4rem;
-            }
-            p{
-                font-size: 1.1rem;
-            }
-        }
-        .grid-item5B{
-            h2{
-                font-size: 1.4rem;
-            }
-            p{
-                font-size: 1.1rem;
+    }
+
+    //EVENTOS
+    .events-main {
+        height: 78rem;
+
+        section {
+            div {
+                .description {
+                    font-size: 1.1rem;
+                }
             }
         }
-        .grid-item7B{
-            h2{
-                font-size: 1.4rem;
+
+        .center {
+            div {
+                .description {
+                    font-size: 1.1rem;
+                }
             }
-            p{
-                font-size: 1.1rem;
+        }
+    }
+
+    //SEDES
+    main {
+        //Primero, 1 columna 3 filas
+
+        .grid-container3 {
+            grid-template-rows: 7% 59% 34%;
+            margin: $nulo $nulo 1.5rem 0.5rem;
+
+            //Titulo
+            .grid-item1C {
+                h1 {
+                    font-size: 1.8rem;
+                }
+            }
+
+            //Parrafo
+            .grid-item3C {
+                padding: $nulo 1rem 9.8rem 1rem;
+
+                h2 {
+                    margin-top: 0.8rem;
+                    font-size: 1.1rem;
+                }
+
+                p {
+                    font-size: 0.95rem;
+                }
+            }
+        }
+
+        //Segundo, 2 columnas con 5 filas
+        .grid-container4 {
+
+            //h2 
+            .grid-item1D {
+                h2 {
+                    font-size: 1.7rem;
+                }
+            }
+
+            .dir {
+                font-size: 1.3rem;
+            }
+
+            .map {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    //CONTACTO NO HAY CAMBIOS
+
+    //FOOTER
+    footer {
+        .logo {
+            .logo-nav {
+                @include log-nav(7.5rem, 7.5rem);
             }
         }
     }
 }
-
-//EVENTOS
-.events-main{
-    height: 78rem;
-    section{
-        div{
-            .description{
-                font-size: 1.1rem;
-            }
-        }
-    }
-     .center{
-        div{
-            .description{
-                font-size: 1.1rem;
-            }
-        }
-     }
-}
-
-//SEDES
-main{
-    //Primero, 1 columna 3 filas
-
-    .grid-container3 {
-        grid-template-rows: 7% 59% 34%;
-        margin: $nulo $nulo 1.5rem 0.5rem;
-        //Titulo
-        .grid-item1C {
-            h1{
-                font-size: 1.8rem;
-            }
-        }
-        //Parrafo
-        .grid-item3C{
-            padding: $nulo 1rem 9.8rem 1rem;
-            h2{
-                margin-top: 0.8rem;
-                font-size: 1.1rem;
-            }
-            p{
-                font-size: 0.95rem;
-            }
-        }
-    }
-    //Segundo, 2 columnas con 5 filas
-    .grid-container4 {
-        //h2 
-        .grid-item1D {
-            h2{
-                font-size: 1.7rem;
-            }
-        }
-        .dir {
-            font-size: 1.3rem;
-        }
-        
-        .map {
-            font-size: 1rem;
-        }
-    }
-}
-
-//CONTACTO NO HAY CAMBIOS
-
-//FOOTER
-footer{
-    .logo{
-        .logo-nav{
-            @include log-nav(7.5rem,7.5rem);
-        }
-    }
-}
-}
-

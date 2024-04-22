@@ -1,6 +1,7 @@
 /* iNICIO - PESTAÑA 1*/
-main{
-    .center{
+main {
+    .center {
+
         //Tamaño imagen del equipo
         .ocupa {
             width: 85%;
@@ -8,6 +9,7 @@ main{
             border: 0.4rem double rgb(187, 171, 171);
         }
     }
+
     // Grids en el main
     .grid-container1 {
         display: grid;
@@ -16,6 +18,7 @@ main{
         margin: 2rem;
         gap: 1.5rem;
         height: 55rem;
+
         //Grid item 1, subtitulo con lista
         .grid-item1A {
             background-color: #bb93bb;
@@ -23,84 +26,99 @@ main{
             border-style: double;
             border-color: #eec8ee;
             grid-row: 1/2;
-            h2{
+
+            h2 {
                 font-size: 1.3rem;
                 margin: $nulo;
                 margin-top: 0.5rem;
                 text-align: $centrado;
                 color: #641164fb;
             }
-            ul{
+
+            ul {
                 padding: $nulo;
-                li{
+
+                li {
                     margin-top: 0.45rem;
                     text-align: $centrado;
                     color: #641164fb;
                 }
             }
         }
+
         //Grid item2, imagen
         .grid-item2A {
             grid-row: 2/3;
+
             .size-nena {
                 width: 97%;
                 height: 100%;
                 border-radius: 1rem;
                 border: 0.2rem solid white;
-                animation-name: foto-nena; 
+                animation-name: foto-nena;
                 animation-iteration-count: infinite;
                 animation-timing-function: linear;
                 animation-duration: 5s;
                 animation-delay: 0s;
             }
         }
+
         //Grid item 3, h2 
         .grid-item3A {
             grid-row: 3/4;
+
             h2 {
                 text-align: $centrado;
                 margin: 2rem 1rem;
                 font-size: 2rem;
                 color: #641164fb;
                 font-family: $font;
-                background: rgb(228,186,203);
-                background: linear-gradient(90deg, rgba(228,186,203,1) 5%, rgba(215,128,167,1) 63%, rgba(210,83,210,1) 100%);
+                background: rgb(228, 186, 203);
+                background: linear-gradient(90deg, rgba(228, 186, 203, 1) 5%, rgba(215, 128, 167, 1) 63%, rgba(210, 83, 210, 1) 100%);
                 border-radius: 0.2rem;
             }
         }
+
         //Grid item 4, video de entrenamientos y preparacion fisica
         .grid-item4A {
             grid-row: 4/5;
             text-align: $centrado;
+
             .video1 {
                 width: 90%;
                 height: 100%;
                 border-radius: 0.4rem;
             }
-        } 
+        }
     }
+
     //Fin de los grids-items
     //Ultimo bloque del inicio
-    .ult-bloque{
+    .ult-bloque {
         margin-top: 16rem;
         text-align: $centrado;
-        div{
-            p{
-                span{
+
+        div {
+            p {
+                span {
                     color: #e634e6;
                 }
             }
-            ul{
+
+            ul {
                 padding: $nulo;
                 margin-top: 1rem;
-                li{
+
+                li {
                     margin: 0.7rem;
                     color: #641164fb;
                 }
             }
         }
+
         .div-video2 {
             margin-bottom: 1rem;
+
             .video2 {
                 width: 70%;
                 height: 70%;
@@ -108,8 +126,9 @@ main{
             }
         }
     }
-    .esperamos{
-        h2{
+
+    .esperamos {
+        h2 {
             margin: 1rem;
         }
     }

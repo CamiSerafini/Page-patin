@@ -1,294 +1,353 @@
-@media only screen and (min-width:1024px) and (max-width:2560px){
-    header{
-        nav{
-            .list{
-                li{
-                    a{
+@media only screen and (min-width:1024px) and (max-width:2560px) {
+    header {
+        nav {
+            .list {
+                li {
+                    a {
                         font-size: 2.2rem;
                     }
                 }
             }
         }
-        .logo{
-            .logo-nav{
-                @include log-nav(16rem,16rem);
+
+        .logo {
+            .logo-nav {
+                @include log-nav(16rem, 16rem);
             }
         }
     }
+
     //INICIO
-    main{
-        .center{
-            .title{
+    main {
+        .center {
+            .title {
                 font-size: 4rem;
             }
-            .subt{
+
+            .subt {
                 font-size: 3rem;
             }
-            .ocupa{
+
+            .ocupa {
                 width: 95%;
             }
-            .description{
+
+            .description {
                 font-size: 1.8rem;
             }
         }
+
         //Grids en el main
-        .grid-container1{
+        .grid-container1 {
             height: 70rem;
-            .grid-item1A{
-                h2{
+
+            .grid-item1A {
+                h2 {
                     font-size: 3.1rem;
                     margin-top: 2.7rem;
                 }
-                .list{
-                    li{
+
+                .list {
+                    li {
                         font-size: 2rem;
                         margin-top: 1.4rem;
                     }
                 }
             }
-            .grid.item2A{
-                .size-nena{
-                    animation-name: foto-nena; 
+
+            .grid.item2A {
+                .size-nena {
+                    animation-name: foto-nena;
                     animation-iteration-count: infinite;
                     animation-timing-function: linear;
                     animation-duration: 5s;
                     animation-delay: 0s;
                 }
             }
-            .grid-item3A{
-                h2{
+
+            .grid-item3A {
+                h2 {
                     font-size: 3.2rem;
                 }
             }
-            .grid-item4A{
-                .video1{
+
+            .grid-item4A {
+                .video1 {
                     margin-left: 2.5rem;
                 }
             }
         }
-        .ult-bloque{
-            div{
+
+        .ult-bloque {
+            div {
                 margin-left: 3rem;
-                .subt{
+
+                .subt {
                     font-size: 3rem;
                 }
-                .list{
+
+                .list {
                     font-size: 2rem;
                 }
             }
-            .div-video2{
+
+            .div-video2 {
                 margin: 0;
-                .video2{
+
+                .video2 {
                     width: 90%;
                 }
             }
         }
-        .esperamos{
-            .subt{
+
+        .esperamos {
+            .subt {
                 font-size: 3rem;
             }
         }
     }
+
     //NOSOTROS
-    main{
-        .grid-container2{
+    main {
+        .grid-container2 {
             height: 130rem;
-            .grid-item1B{
-                .title{
+
+            .grid-item1B {
+                .title {
                     margin-top: 0.5rem;
                     font-size: 4rem;
                 }
             }
-            .grid-item2B{
-                img{
+
+            .grid-item2B {
+                img {
                     height: 100%;
                     width: 99%;
                 }
             }
-            .grid-item3B{
-                h2{
+
+            .grid-item3B {
+                h2 {
                     margin-top: 2.5rem;
                     font-size: 2.7rem;
                 }
-                .description{
+
+                .description {
                     font-size: 2rem;
                 }
             }
-            .grid-item4B{
-                img{
+
+            .grid-item4B {
+                img {
                     width: 98%;
                     height: 100%;
                 }
             }
-            .grid-item5B{
+
+            .grid-item5B {
                 margin-top: 6rem;
                 margin-bottom: 6rem;
-                h2{
+
+                h2 {
                     font-size: 2.7rem;
                     margin-top: 4.5rem;
                 }
-                .description{
+
+                .description {
                     font-size: 2rem;
                 }
             }
-            .grid-item6B{
+
+            .grid-item6B {
                 margin-top: 2.5rem;
-                .img{
+
+                .img {
                     height: 100%;
                 }
             }
-            .grid-item7B{
-                .description{
+
+            .grid-item7B {
+                .description {
                     font-size: 1.9rem;
                 }
             }
         }
     }
+
     //EVENTOS
-    .events-main{
-        section{
+    .events-main {
+        section {
             width: 80%;
             margin-left: 6rem;
 
-            div{
-                .title{
+            div {
+                .title {
                     font-size: 4rem;
                 }
             }
-            section{
-                .subt{
+
+            section {
+                .subt {
                     font-size: 3rem;
                 }
             }
-            .center{
-                .subt{
+
+            .center {
+                .subt {
                     font-size: 3.3rem;
                 }
             }
         }
-        
+
     }
+
     //SEDES
-    main{
-        .grid-container3{
+    main {
+        .grid-container3 {
             height: 45rem;
             grid-template-rows: 8% 55% 37%;
             margin-bottom: 0.5rem;
-            .grid-item1C{
-                .title{
+
+            .grid-item1C {
+                .title {
                     font-size: 4rem;
                 }
             }
-            .grid-item2C{
+
+            .grid-item2C {
                 height: 95%;
                 margin-top: 2rem;
             }
-            .grid-item3C{
+
+            .grid-item3C {
                 margin-left: 9rem;
                 margin-right: 9rem;
-                transform: translate(-75px,-80px);
-                h2{
+                transform: translate(-75px, -80px);
+
+                h2 {
                     font-size: 3rem;
                 }
-                .description{
+
+                .description {
                     font-size: 1.9rem;
                 }
             }
         }
-        .grid-container4{
+
+        .grid-container4 {
             height: 50rem;
-            .grid-item1D{
-                .subt{
+
+            .grid-item1D {
+                .subt {
                     font-size: 2.8rem;
                 }
             }
-            .grid-item2D{
-                .dir{
+
+            .grid-item2D {
+                .dir {
                     font-size: 2.5rem;
                 }
             }
-            .grid-item3D{
+
+            .grid-item3D {
                 img {
                     width: 19%;
-                } 
-                .map{
+                }
+
+                .map {
                     font-size: 1.8rem;
                 }
             }
-            .grid-item4D{
-                .dir{
+
+            .grid-item4D {
+                .dir {
                     font-size: 2.5rem;
-                } 
+                }
             }
-            .grid-item5D{
+
+            .grid-item5D {
                 img {
                     width: 19%;
-                } 
-                .map{
+                }
+
+                .map {
                     font-size: 1.8rem;
                 }
             }
-            .grid-item6D{
-                .dir{
+
+            .grid-item6D {
+                .dir {
                     font-size: 2.5rem;
-                } 
+                }
             }
-            .grid-item7D{
+
+            .grid-item7D {
                 img {
                     width: 19%;
-                } 
-                .map{
+                }
+
+                .map {
                     font-size: 1.8rem;
                 }
             }
-            .grid-item8D{
-                .dir{
+
+            .grid-item8D {
+                .dir {
                     font-size: 2.5rem;
-                } 
+                }
             }
-            .grid-item9D{
+
+            .grid-item9D {
                 img {
                     width: 19%;
-                } 
-                .map{
+                }
+
+                .map {
                     font-size: 1.8rem;
                 }
             }
         }
     }
+
     //CONTACTO
-    main{
-        .title{
+    main {
+        .title {
             font-size: 4rem;
         }
-        .description{
-            .text-center{
+
+        .description {
+            .text-center {
                 font-size: 2rem;
             }
         }
     }
+
     //FOOTER
-    footer{
-        .logo{
-            .logo-nav{
-                @include log-nav(16rem,16rem);
+    footer {
+        .logo {
+            .logo-nav {
+                @include log-nav(16rem, 16rem);
             }
         }
-        div{
-            .seguinos{
-                h2{
+
+        div {
+            .seguinos {
+                h2 {
                     font-size: 2.5rem;
                 }
-                .redes{
+
+                .redes {
                     width: 4rem;
                 }
             }
-            .center{
-                h3{
+
+            .center {
+                h3 {
                     font-size: 2.2rem;
                 }
-                .list{
-                    li{
+
+                .list {
+                    li {
                         font-size: 1.7rem;
                     }
                 }
@@ -297,73 +356,81 @@
     }
 
 }
-@media only screen and (min-width:1440px){
-    header{
-        nav{
-            .list{
-                li{
-                    a{
+
+@media only screen and (min-width:1440px) {
+    header {
+        nav {
+            .list {
+                li {
+                    a {
                         font-size: 2.6rem;
                     }
                 }
             }
         }
-        .logo{
-            .logo-nav{
-                @include log-nav(17rem,17rem);
+
+        .logo {
+            .logo-nav {
+                @include log-nav(17rem, 17rem);
             }
         }
     }
 
-    main{
-        .grid-container1{
+    main {
+        .grid-container1 {
             width: 80%;
             margin-left: 6.5rem;
-            .grid-item1A{
-                .list{
-                    li{
-                        &:hover{
+
+            .grid-item1A {
+                .list {
+                    li {
+                        &:hover {
                             color: bisque;
                         }
                     }
                 }
             }
-            .grid-item2A{
-                .size-nena{
+
+            .grid-item2A {
+                .size-nena {
                     width: 95%;
                     margin-left: 0.8rem;
                 }
             }
         }
-        .ult-bloque{
-            div{
+
+        .ult-bloque {
+            div {
                 margin-left: 11rem;
             }
-            .div-video2{
-                .video2{
+
+            .div-video2 {
+                .video2 {
                     width: 70%;
                     margin-left: 4rem;
                 }
             }
         }
-        .esperamos{
-            .subt{
+
+        .esperamos {
+            .subt {
                 font-size: 3.5rem;
             }
         }
     }
-    .events-main{
-        section{
+
+    .events-main {
+        section {
             width: 80%;
             margin-left: 9rem;
         }
     }
 
     //NOSOTROS
-    main{
-        .grid-container2{
-            .grid-item7B{
-                .description{
+    main {
+        .grid-container2 {
+            .grid-item7B {
+                .description {
                     transform: translateY(-15px);
                     margin: $nulo 8.5rem;
                     padding: 0.6rem $nulo;
@@ -373,46 +440,52 @@
     }
 
     //SEDES
-    main{
-        .grid-container3{
-            .grid-item3C{
+    main {
+        .grid-container3 {
+            .grid-item3C {
                 margin: $nulo 20rem;
-                transform: translate(-195px,-90px);
-                h2{
+                transform: translate(-195px, -90px);
+
+                h2 {
                     margin-top: 1.4rem;
                 }
             }
         }
     }
 
-    footer{
-        .logo{
-            .logo-nav{
-                @include log-nav(17rem,17rem);
+    footer {
+        .logo {
+            .logo-nav {
+                @include log-nav(17rem, 17rem);
             }
         }
-        div{
-            .seguinos{
-                h2{
+
+        div {
+            .seguinos {
+                h2 {
                     font-size: 3.1rem;
                 }
-                .redes{
+
+                .redes {
                     width: 6rem;
                 }
             }
-            .center{
-                h3{
+
+            .center {
+                h3 {
                     font-size: 2.6rem;
                 }
-                .list{
-                    li{
+
+                .list {
+                    li {
                         font-size: 2.3rem;
                     }
                 }
             }
         }
     }
-    .fijo{
+
+    .fijo {
         width: 3.5rem;
     }
 }
