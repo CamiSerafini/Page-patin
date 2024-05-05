@@ -63,7 +63,7 @@ $flex: flex;
 @keyframes cartel {
 
     0% {
-        transform: rotate(20deg);
+        transform: rotate(10deg);
     }
 
     25% {
@@ -71,7 +71,7 @@ $flex: flex;
     }
 
     50% {
-        transform: rotate(-20deg);
+        transform: rotate(-10deg);
     }
 
     75% {
@@ -79,7 +79,7 @@ $flex: flex;
     }
 
     100% {
-        transform: rotate(20deg);
+        transform: rotate(10deg);
     }
 
 }

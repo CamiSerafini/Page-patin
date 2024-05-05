@@ -4,9 +4,19 @@ main {
 
         //Tamaño imagen del equipo
         .ocupa {
-            width: 85%;
+            width: 90%;
             margin-top: 1rem;
             border: 0.4rem double rgb(187, 171, 171);
+        }
+
+        .description{
+            background-color: #bb93bb;
+            padding: 0.2rem;
+            border-radius: 0.3rem;
+            border: double;
+            text-align: $centrado;
+            font-size: 0.8rem;
+            transform: translateY(-30px);
         }
     }
 
@@ -16,6 +26,7 @@ main {
         grid-template-columns: 100%;
         grid-template-rows: 20% 30% 17% 53%;
         margin: 2rem;
+        margin-top: $nulo;
         gap: 1.5rem;
         height: 55rem;
 
@@ -51,8 +62,8 @@ main {
             grid-row: 2/3;
 
             .size-nena {
-                width: 97%;
-                height: 100%;
+                width: 94%;
+                height: 90%;
                 border-radius: 1rem;
                 border: 0.2rem solid white;
                 animation-name: foto-nena;
@@ -60,13 +71,19 @@ main {
                 animation-timing-function: linear;
                 animation-duration: 5s;
                 animation-delay: 0s;
+                margin-left: 0.3rem;
+                margin-top: 0.6rem;
             }
         }
 
         //Grid item 3, h2 
         .grid-item3A {
             grid-row: 3/4;
-
+            animation-name: cartel;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-duration: 2s;
+            animation-delay: 0s;
             h2 {
                 text-align: $centrado;
                 margin: 2rem 1rem;
@@ -100,6 +117,10 @@ main {
 
         div {
             p {
+                border-bottom: 0.2rem dotted;
+                padding-bottom: 0.5rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
                 span {
                     color: #e634e6;
                 }

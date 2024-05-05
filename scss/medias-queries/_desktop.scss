@@ -41,8 +41,8 @@
                 font-size: 2rem;
                 background-color: #bb93bb;
                 text-align: $centrado;
-                margin: $nulo 36rem;
-                border: 0.5rem dotted;
+                margin: $nulo 57rem;
+                border: 0.5rem double;
                 padding: 1rem $nulo;
                 transform: translateY(-40px);
             }
@@ -51,16 +51,26 @@
         .grid-container1 {
             height: 80rem;
             margin-left: 15rem;
+            margin-bottom: 11rem;
+            margin-top: 3rem;
+            row-gap: 6rem;
 
             .grid-item1A {
-                margin-left: 11rem;
-                width: 70%;
+                margin-left: 21rem;
+                padding-left: 2.4rem;
+                width: 50%;
 
                 h2 {
+                    text-align: start;
                     font-size: 3.5rem;
                     margin-top: 3.3rem;
                 }
 
+                ul{
+                    li{
+                        text-align: start;
+                    }
+                }
                 .list {
                     li {
                         font-size: 2.5rem;
@@ -69,8 +79,8 @@
             }
 
             .grid-item2A {
-                width: 70%;
-                margin-left: 7rem;
+                width: 55%;
+                margin-left: 6.5rem;
 
                 .size-nena {
                     animation-name: foto-nena;
@@ -82,8 +92,7 @@
             }
 
             .grid-item3A {
-                margin-left: 1rem;
-                margin: $nulo 11rem;
+                margin: $nulo 19rem $nulo 4rem;
 
                 h2 {
                     font-size: 3.6rem;
@@ -92,18 +101,22 @@
 
             .grid-item4A {
                 .video1 {
-                    margin-left: 8rem;
+                    margin-left: 18rem;
                 }
             }
         }
 
         .ult-bloque {
+            background-color: #d9aad9;
+            margin-left: 35rem;
+            margin-right: 30rem;
+            border-radius: 0.3rem;
             div {
-                margin-left: 35rem;
+                margin-left: 6rem;
 
                 .subt {
                     font-size: 3.5rem;
-                    border: 0.3rem dotted;
+                    border-bottom: 0.3rem dotted;
                     padding: 0.5rem;
                 }
 
@@ -114,9 +127,13 @@
 
             .div-video2 {
                 margin: $nulo;
-                margin-left: 10rem;
+                margin-left: 4rem;
+                transform: translateY(70px);
 
                 .video2 {
+                    -webkit-box-shadow: 2px 8px 25px 4px rgba(117,76,117,1);
+                    -moz-box-shadow: 2px 8px 25px 4px rgba(117,76,117,1);
+                    box-shadow: 2px 8px 25px 4px rgba(117,76,117,1);
                     width: 95%;
                 }
             }
@@ -124,10 +141,8 @@
 
         .esperamos {
             .subt {
-                margin-top: 2rem;
-                font-size: 4rem;
-                border-top: 0.3rem dotted;
-                border-bottom: 0.3rem dotted;
+                margin-top: 9rem;
+                font-size: 3.3rem;
             }
         }
     }
@@ -135,27 +150,33 @@
     //NOSOTROS
     main {
         .grid-container2 {
+            margin-left: 15rem;
             grid-template-rows: 5% 28% 28% 35% 4%;
-            height: 160rem;
+            height: 170rem;
+            width: 80%;
+            row-gap: 1.5rem;
+            margin-bottom: 3rem;
 
             //Titulo
             .grid-item1B {
                 .title {
                     font-size: 5.5rem;
+                    margin-top: $nulo;
                 }
             }
 
             //Imagen
             .grid-item2B {
                 img {
-                    width: 70%;
-                    margin-left: 9rem;
+                    width: 60%;
+                    margin-left: 14rem;
                 }
             }
 
             //Parrafo
             .grid-item3B {
-                margin: 7rem 5rem;
+                margin: 9rem 5rem;
+                border-radius: 0.6rem;
 
                 h2 {
                     margin-top: 6.2rem;
@@ -171,14 +192,15 @@
             //Imagen
             .grid-item4B {
                 img {
-                    width: 70%;
+                    width: 65%;
                     margin-left: 9rem;
                 }
             }
 
             //Parrafo
             .grid-item5B {
-                margin: 8rem 5rem;
+                margin: 7rem 5rem;
+                border-radius: 0.6rem;
 
                 h2 {
                     margin-top: 6.8rem;
@@ -194,11 +216,11 @@
 
             //Imagen 
             .grid-item6B {
-                margin-top: 2rem;
+                margin-top: 4rem;
 
                 img {
                     width: 45%;
-                    height: 100%;
+                    height: 97%;
                 }
             }
 
@@ -207,7 +229,7 @@
                 .description {
                     font-size: 2.4rem;
                     margin: $nulo 38rem;
-                    transform: translateY(-15px);
+                    transform: translateY(-95px);
                 }
             }
 
@@ -218,33 +240,44 @@
     .events-main {
         section {
             margin-left: 14rem;
-        }
-
-        div {
-            .title {
-                font-size: 5.5rem;
-            }
-        }
-
-        section {
-            .subt {
-                font-size: 4.5rem;
-            }
-
             div {
-                .description {
-                    font-size: 2.5rem;
+                .title {
+                    font-size: 5.5rem;
+                }
+            }
+            section{
+                .subt {
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+                    font-size: 4.5rem;
+                    margin-right: 3rem;
+                }
+                div{
+                    .description {
+                        font-size: 2.5rem;
+                        border: 0.5rem double;
+                        background-color: #bb93bb;
+                        padding: 1rem;
+                        margin-right: 3.2rem;
+                        text-align: $centrado;
+                    }
+                }
+            }
+            .center {
+                .x {
+                    margin-left: 2rem;
+                    margin-right: 2rem;
+                    .description {
+                        font-size: 2.5rem;
+                        background-color: #bb93bb;
+                        margin: $nulo;     
+                        margin-right: 2rem;    
+                        margin-top: 4rem;                       
+                    }
                 }
             }
         }
-
-        .center {
-            div {
-                .description {
-                    font-size: 2.5rem;
-                }
-            }
-        }
+        
     }
 
     //SEDES
@@ -321,7 +354,22 @@
                 }
             }
         }
+        .veni{
+            h3{
+                text-align: $centrado;
+                @include tit-subt($font, 3rem, bolder,$color-princ, $centrado);
+            }
+        }
     }
+
+    //CONTACTO
+    main{
+        .contact{
+            width: 80%;
+            margin-left: 15rem;
+        }
+    }
+    
 
     //FOOTER
     footer {

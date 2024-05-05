@@ -41,20 +41,20 @@ main {
             grid-row: 3/4;
             margin-left: 3rem;
             margin-right: 3rem;
-            padding: $nulo 1rem 11.3rem 1rem;
-            transform: translate(-35px, -65px);
+            padding: $nulo 1rem 9.3rem 1rem;
+            transform: translate(-35px, -55px);
             border-radius: 2rem;
 
             h2 {
                 text-align: $centrado;
                 margin-top: 0.6rem;
                 margin-bottom: 0.3rem;
-                @include tit-subt($font, 1rem, bolder, #aa16ab, none);
+                @include tit-subt($font, 0.9rem, bolder, #aa16ab, none);
             }
 
             p {
                 margin: $nulo;
-                font-size: 0.9rem;
+                font-size: 0.8rem;
             }
         }
     }
@@ -138,6 +138,14 @@ main {
             font-size: 0.9rem;
             text-align: $centrado;
             color: rgb(238, 149, 164);
+        }
+    }
+    .veni{
+        h3{
+            text-align: $centrado;
+            @include tit-subt($font, 1.4rem, bolder,$color-princ, $centrado);
+            margin-top: 1rem;
+            margin-bottom: 0.8rem;
         }
     }
 }

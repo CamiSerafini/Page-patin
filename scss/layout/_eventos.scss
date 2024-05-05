@@ -1,11 +1,35 @@
-main {
+.events-main {
     section {
-        div {
-            .eventos {
-                margin: 0.5rem;
-                width: 97%;
-                border-radius: 0.2rem;
+        section{
+            div {
+                .description{
+                    background-color: #bb93bb;
+                    padding: 0.2rem;
+                    border-radius: 0.3rem;
+                    border: double;
+                    text-align: $centrado;
+                    font-size: 0.8rem;
+                }
+                .eventos {
+                    margin: 0.5rem;
+                    width: 97%;
+                    border-radius: 0.2rem;
+                }
             }
         }
+        .center{
+            .x{
+                .description{
+                    background-color: #bb93bb;
+                    padding: 0.2rem;
+                    border-radius: 0.3rem;
+                    border: double;
+                    text-align: $centrado;
+                    font-size: 0.8rem;
+                    margin-top: 3rem;
+                    margin-bottom: $nulo;
+                }
+            }
+        }  
     }
 }
