@@ -66,11 +66,12 @@
                     margin-top: 3.3rem;
                 }
 
-                ul{
-                    li{
+                ul {
+                    li {
                         text-align: start;
                     }
                 }
+
                 .list {
                     li {
                         font-size: 2.5rem;
@@ -111,6 +112,7 @@
             margin-left: 35rem;
             margin-right: 30rem;
             border-radius: 0.3rem;
+
             div {
                 margin-left: 6rem;
 
@@ -131,9 +133,9 @@
                 transform: translateY(70px);
 
                 .video2 {
-                    -webkit-box-shadow: 2px 8px 25px 4px rgba(117,76,117,1);
-                    -moz-box-shadow: 2px 8px 25px 4px rgba(117,76,117,1);
-                    box-shadow: 2px 8px 25px 4px rgba(117,76,117,1);
+                    -webkit-box-shadow: 2px 8px 25px 4px rgba(117, 76, 117, 1);
+                    -moz-box-shadow: 2px 8px 25px 4px rgba(117, 76, 117, 1);
+                    box-shadow: 2px 8px 25px 4px rgba(117, 76, 117, 1);
                     width: 95%;
                 }
             }
@@ -240,19 +242,22 @@
     .events-main {
         section {
             margin-left: 14rem;
+
             div {
                 .title {
                     font-size: 5.5rem;
                 }
             }
-            section{
+
+            section {
                 .subt {
                     margin-top: 1rem;
                     margin-bottom: 1rem;
                     font-size: 4.5rem;
                     margin-right: 3rem;
                 }
-                div{
+
+                div {
                     .description {
                         font-size: 2.5rem;
                         border: 0.5rem double;
@@ -263,21 +268,23 @@
                     }
                 }
             }
+
             .center {
                 .x {
                     margin-left: 2rem;
                     margin-right: 2rem;
+
                     .description {
                         font-size: 2.5rem;
                         background-color: #bb93bb;
-                        margin: $nulo;     
-                        margin-right: 2rem;    
-                        margin-top: 4rem;                       
+                        margin: $nulo;
+                        margin-right: 2rem;
+                        margin-top: 4rem;
                     }
                 }
             }
         }
-        
+
     }
 
     //SEDES
@@ -354,22 +361,23 @@
                 }
             }
         }
-        .veni{
-            h3{
+
+        .veni {
+            h3 {
                 text-align: $centrado;
-                @include tit-subt($font, 3rem, bolder,$color-princ, $centrado);
+                @include tit-subt($font, 3rem, bolder, $color-princ, $centrado);
             }
         }
     }
 
     //CONTACTO
-    main{
-        .contact{
+    main {
+        .contact {
             width: 80%;
             margin-left: 15rem;
         }
     }
-    
+
 
     //FOOTER
     footer {

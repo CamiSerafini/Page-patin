@@ -140,10 +140,11 @@ main {
             color: rgb(238, 149, 164);
         }
     }
-    .veni{
-        h3{
+
+    .veni {
+        h3 {
             text-align: $centrado;
-            @include tit-subt($font, 1.4rem, bolder,$color-princ, $centrado);
+            @include tit-subt($font, 1.4rem, bolder, $color-princ, $centrado);
             margin-top: 1rem;
             margin-bottom: 0.8rem;
         }
